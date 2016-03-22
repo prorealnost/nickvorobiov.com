@@ -1,0 +1,24 @@
+---
+layout: base
+---
+
+{% if page.narrow %}
+<style type="text/css">
+  .container {
+    max-width: 760px;
+  }
+  .main {
+    margin-bottom: 60px;
+  }
+</style>
+{% endif %}
+
+<section class="pagetitle">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+  </div>
+</section>
+
+<div class="container main">
+  {{ content }}
+</div>

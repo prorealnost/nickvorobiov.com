@@ -1,0 +1,106 @@
+.container {
+  max-width: none;
+}
+
+#header-light {
+  padding: 10px 0;
+
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+  line-height: 23px;
+
+  img {
+    width: 180px;
+    height: auto;
+    float: left;
+  }
+
+  h1 {
+    text-align: center;
+    margin-top: 13px;
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-top: 27px;
+  }
+}
+
+#hero {
+  background-color: #f7f7f7;
+  color: black;
+  padding: 30px 0;
+
+  p {
+    margin: 27px;
+  }
+
+  em {
+    color: #e74c3c;
+    font-style: normal;
+  }
+
+  h1.primary {
+    font-weight: 900;
+    font-size: 48px;
+    color: #fefefe;
+    line-height: 48px;
+    margin: 24px auto;
+    padding: 0;
+    display: block;
+    text-align: center;
+  }
+}
+
+#main {
+  #steps {
+    margin-top: 40px;
+    table {
+      width: 100%;
+      .step {
+        td {
+          padding: 10px;
+        }
+
+        td.icon {
+          color: #2980b9;
+        }
+
+        .icon {
+          font-size: 40px;
+        }
+      }
+    }
+  }
+
+  #countdown {
+    text-align: center;
+    .numbers {
+      font-family: "Roboto", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 100px;
+      line-height: 100px;
+      margin-bottom: 50px;
+    }
+  }
+}
+
+#checkmail {
+  background-color: #f7f7f7;
+  color: black;
+  padding: 30px 0 48px 0;
+  text-align: center;
+
+  @media (min-width: 768px) {
+    img {
+      padding: 10px;
+    }
+  }
+
+  @media (min-width: 992px) {
+    img {
+      padding: 20px;
+    }
+  }
+}

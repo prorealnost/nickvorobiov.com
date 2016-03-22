@@ -1,0 +1,52 @@
+<html>
+
+<head>
+  <title>{{ page.title }} | {{ site.title }}</title>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="{{ site.description }}" />
+  <meta name="keywords" content="{{ site.keywords }}" />
+  <meta name="author" content="{{ site.author }}" />
+  <link rel="stylesheet" type="text/css" href="/style.css" />
+  <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.5.0/css/font-awesome.min.css">
+  <script type="text/javascript" src="/vendor/jquery/jquery-1.11.3.min.js"></script>
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+  {{ content }}
+
+  <div id="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-5 col-sm-4">
+          <a href="http://soedinennost.com/privacy">Политика<br/>конфиденциальности</a>
+        </div>
+        <div class="col-xs-5 col-sm-4 text-center">
+          Санкт-Петербург,
+          <br/>ул. Некрасова, 40, офис 32
+        </div>
+        <div class="col-xs-2 col-sm-4 text-right">
+          +7 921 7618506
+        </div>
+    </div>
+  </div>
+
+  <!-- javascript -->
+
+  <script type="text/javascript" src="/vendor/jquery/jquery.validate.min.js"></script>
+  <script type="text/javascript" src="/vendor/jquery/jquery.validate.messages_ru.min.js"></script>
+  <script type="text/javascript" src="/vendor/validate.js"></script>
+  <script type="text/javascript" src="/vendor/bootstrap-3.3.6/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="/vendor/wow.min.js"></script>
+  <script type="text/javascript">
+    new WOW().init();
+  </script>
+
+  {% include metrika.html %}
+
+</body>
+
+</html>
