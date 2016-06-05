@@ -29,12 +29,12 @@
       </div>
     </div>
     <div id="jumbocontent" class="row">
-      <div class="col-lg-6 col-xs-7">
+      <div class="col-xs-6">
         <h1>Личные тренировки с&nbsp;Николаем&nbsp;Воробьёвым</h1>
         <p class="lead">Научу знакомиться и&nbsp;строить близкие<br/>отношения с&nbsp;женщинами за&nbsp;8&nbsp;занятий</p>
         <a href="#join" class="btn btn-info btn-lg">Записаться на&nbsp;встречу</a>
       </div>
-      <div class="col-lg-6 col-xs-5">
+      <div class="col-xs-6">
         <div class="flex-video widescreen">
           <iframe width="853" height="480" src="https://www.youtube.com/embed/rmz9R7o_9IE?rel=0&amp;controls=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
         </div>
@@ -177,7 +177,7 @@
     <p>
       За&nbsp;8&nbsp;занятий научишься знакомиться и&nbsp;брать телефон. Начнешь чувствовать себя, как босс и&nbsp;отсеивать девушек, которые тебе не&nbsp;подходят. Поймешь о&nbsp;чём говорить, чтобы было интересно обоим. Итог работы&nbsp;&mdash; гармоничные отношения.
     </p>
-    <img src="/images/chick.jpg" class="img-responsive" />
+    <img src="/images/girls.jpg" class="img-responsive" />
   </div>
 </section>
 
@@ -296,7 +296,7 @@
         <br/>+7 921 761-85-06
       </div>
       <div class="col-xs-6 text-right">
-        <a href="http://soedinennost.com/privacy">Политика конфиденциальности</a><br/>Ты можешь больше<br/>Я в тебя верю
+        <a href="http://soedinennost.com/privacy">Политика конфиденциальности</a><br/>У тебя всё получится<br/>Записывайся
       </div>
   </div>
 </div>
@@ -312,6 +312,23 @@
     new WOW().init();
   </script>
 
+<!-- smooth scroll -->
+<script type="text/javascript">
+$(function() {
+  $('a[href*="#"]:not([href="#"])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
   
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
