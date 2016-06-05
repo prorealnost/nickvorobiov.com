@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:300,400,500,600,700&subset=latin,cyrillic);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&subset=latin,cyrillic);
+
 section {
   margin: 60px 0;
 }
@@ -63,13 +66,13 @@ section {
 }
 
 body {
-  font-family: PT Sans;
+  font-family: PT Sans, sans-serif;
   font-weight: normal;
   font-size: 20px;
 }
 
 h1, h2, h3 {
-  font-family: Ubuntu;
+  font-family: Ubuntu, sans-serif;
   font-weight: bold;
 }
 
