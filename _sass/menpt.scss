@@ -1,13 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=PT+Sans:300,400,500,600,700&subset=latin,cyrillic);
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&subset=latin,cyrillic);
-
-section {
-  margin: 130px 0;
-}
+@import 
+  url(https://fonts.googleapis.com/css?family=PT+Sans:300,400,500,600,700&subset=latin,cyrillic);
+@import 
+  url(https://fonts.googleapis.com/css?family=Ubuntu:300,400,500,600,700&subset=latin,cyrillic);
 
 .container {
-  min-width: 970px;
-  max-width: 970px;
+  min-width: 1170px;
+  max-width: 1170px;
 }
 
 .orange {
@@ -19,19 +17,62 @@ section {
 }
 
 .box {
-  border: solid #f9e17f 3px;
+  border: solid #f9e17f 14px;
   padding: 30px;
 }
 
-.greenbox {
-  border: solid #2ecc71 3px;
-  padding: 30px;
+body {
+  font-family: PT Sans, sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: -1.05px;
+/*
+  background-image: url(/images/design.jpg);
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: 1140px;
+*/
+}
+
+h1, h2, h3 {
+  font-family: Ubuntu, sans-serif;
+  font-weight: bold;
+  margin: 27px 0;
+}
+
+h1 {
+  font-size: 48px;
+  letter-spacing: -3.8px;
+  line-height: 68px;
+}
+
+h2 {
+  font-size: 30px;
+  letter-spacing: -3px;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 24px;
+  letter-spacing: -2px;
+  margin-top: 14px;
+  margin-bottom: 3px;
+}
+
+p.lead {
+  font-size: 30px;
+}
+
+.flex-video.widescreen {
+  padding-bottom: 52%;
+  margin-top: 30px;
 }
 
 #jumbo {
   margin-top: 0;
-  padding: 60px 0;
-  background: #f9e17f;
+  padding: 78px 0 162px 0;
+  background: #fbe9a1;
 
   .container {
     max-width: 1170px;
@@ -43,52 +84,169 @@ section {
   }
   #phone {
     text-align: right;
+    font-size: 26px;
+    line-height: 34px;
   }
 
   #jumbocontent {
-    margin-top: 30px;
+    margin-top: 90px;
     margin-bottom: 30px;
 
     h1 {
-      font-size: 40px;
-      line-height: 49px;
+      font-size: 42px;
+      line-height: 55px;
+      letter-spacing: -1.2px;
+      margin-bottom: 30px;
     }
 
     p {
       font-size: 30px;
-      line-height: 38px;
+      line-height: 45px;
     }
 
     a {
-      margin-top: 30px;
+      margin-top: 20px;
+      padding: 14px 50px;
+      font-size: 26px;
     }
   }
 }
 
-body {
-  font-family: PT Sans, sans-serif;
-  font-weight: normal;
-  font-size: 20px;
+#guys {
+  padding: 165px 0 0 0;
+
+  .container {
+    padding-right: 152px;
+
+    p {
+      margin-bottom: 33.5px;
+    }
+  }
 }
 
-h1, h2, h3 {
-  font-family: Ubuntu, sans-serif;
-  font-weight: bold;
-  margin-bottom: 20px;
-  margin-top: 30px;
+#wewillmeet {
+  padding: 87px 0 0 0;
+
+  h2 {
+    margin-bottom: 38px;
+  }
+
+  p {
+    margin-bottom: 1px;
+  }
+
+  p.lead {
+    margin-top: 24px;
+  }
+
+  p.result {
+    margin-top: 40px;
+  }
 }
 
-h1 {
-  margin-bottom: 30px;
+#strategy {
+  padding: 116px 0 0 0; 
+
+  .box {
+    margin-top: 45px;
+    padding: 32px 56px;
+  }
 }
 
-.flex-video.widescreen {
-  padding-bottom: 52%;
-  margin-top: 30px;
+#assignments {
+  padding: 154px 0 0;
+
+  .container {
+    /*padding-right: 152px;*/
+  }
+}
+
+#feedback {
+  padding: 166px 0 0;
+
+  .left {
+    padding: 50px 80px;
+
+    img {
+      margin-bottom: 10px;
+    }
+  }
+}
+
+#twofiddy {
+  padding: 136px 0 0;
+
+  .option {
+    margin-bottom: 32px;
+  }
+
+  .price {
+    padding: 50px 85px;
+
+    img {
+      margin-bottom: 16px;
+    }
+  }
+}
+
+#pump {
+  padding: 100px 0 0;
+}
+
+#result {
+  padding: 100px 0 0;
+}
+
+#join {
+  padding: 131px 0 0;
+
+  .box {
+    margin-top: 40px;
+    padding: 100px 54px 140px;
+
+    p {
+      font-size: 34px;
+    }
+
+    input {
+      font-size: 20px;
+      padding: 20px;
+      height: 64px;
+    }
+
+    button {
+      font-size: 28px;
+    }
+  }
+}
+
+#terms {
+  padding: 135px 0 0;
+}
+
+#answers {
+  padding: 107px 0 0;
 }
 
 #who {
-  .face {
-    margin-top: 30px;
+  padding: 135px 0 135px;
+
+  p {
+    margin-bottom: 1px;
+    font-size: 21px;
   }
+
+  p.lead {
+    margin-top: 24px;
+    font-size: 26px;
+  }
+
+  .left {
+    padding: 30px 68px 0px 20px;
+  }
+}
+
+#foo {
+  font-size: 20px;
+  margin-bottom: 20px;
 }
