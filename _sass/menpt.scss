@@ -1,0 +1,85 @@
+section {
+  margin: 60px 0;
+}
+
+.container {
+  min-width: 970px;
+  max-width: 970px;
+}
+
+.orange {
+  color: #f7b009;
+}
+
+.orange-bg {
+  background-color: #f9e17f;
+}
+
+.box {
+  border: solid #f9e17f 3px;
+  padding: 30px;
+}
+
+.greenbox {
+  border: solid #2ecc71 3px;
+  padding: 30px;
+}
+
+#jumbo {
+  margin-top: 0;
+  padding: 60px 0;
+  background: #f9e17f;
+
+  .container {
+    max-width: 1170px;
+  }
+
+  #logo {
+    width: 180px;
+    height: auto;
+  }
+  #phone {
+    text-align: right;
+  }
+
+  #jumbocontent {
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    h1 {
+      font-size: 40px;
+      line-height: 49px;
+    }
+
+    p {
+      font-size: 30px;
+      line-height: 38px;
+    }
+
+    a {
+      margin-top: 30px;
+    }
+  }
+}
+
+body {
+  font-family: PT Sans;
+  font-weight: normal;
+  font-size: 20px;
+}
+
+h1, h2, h3 {
+  font-family: Ubuntu;
+  font-weight: bold;
+}
+
+.flex-video.widescreen {
+  padding-bottom: 50%;
+  margin-top: 30px;
+}
+
+#who {
+  .face {
+    margin-top: 30px;
+  }
+}
