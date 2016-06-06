@@ -2,4 +2,4 @@
 layout: base
 ---
 
-<script type="text/javascript">document.location.href = "/5/";</script>
+<script type="text/javascript">document.location.href = "/12/";</script>
