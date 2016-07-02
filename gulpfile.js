@@ -62,7 +62,7 @@ gulp.task('fast', ['css', 'connectBuild', 'fastwatch'], function() {
 /* Watch task */
 gulp.task('watch', function() {
   gulp.watch('./_sass/*.scss', ['css']);
-  gulp.watch(['*.md', '*.html', '_layouts/*.html', '_posts/*', 'images/*', '*.yml', '_klr/*', '_includes/*', '_cats/*', '_klr-weekly/*', '_quests/*', 'enjoy/*', 'funnel/**/*'], ['jekyll-rebuild']);
+  gulp.watch(['*.md', '*.html', '_layouts/*.html', '_posts/*', 'images/*', '*.yml', '_klr/*', '_includes/*', '_cats/*', '_klr-weekly/*', '_quests/*', 'enjoy/*', 'funnel/**/*', 'js/*.js'], ['jekyll-rebuild']);
 });
 
 // for i in {1..8}; do convert learn-icon-$i.png -gravity center -background none -extent 165x165 learn-icon-$i-extend.png; done

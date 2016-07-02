@@ -1,0 +1,40 @@
+.s-result {
+  padding-bottom: 0 !important;
+  h2 {
+    em {
+      display: block;
+      font-style: normal;
+      margin-left: -0.560em;
+    }
+  }
+  &__item {
+    padding: 2.857em;
+    &--outline {
+      border: 2px solid $color-primary;
+      border-right: 0;
+      //margin-right: 2.857em;
+      position: relative;
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        right: -7%;
+        top: -1%;
+        height: 52%;
+        border-right: 2px solid $color-primary;
+        transform: rotate(-15deg);
+      }
+      &::after {
+        top: auto;
+        bottom: -1%;
+        transform: rotate(15deg);
+      }
+    }
+    h4 {
+      margin-top: 0;
+    }
+    h5 {
+      margin-bottom: 0;
+    }
+  }
+}

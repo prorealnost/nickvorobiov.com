@@ -1,52 +1,45 @@
+<!DOCTYPE html>
 <html>
-
 <head>
-  {% include facebook-pixel.html %}
-  <title>{{ page.title }} | {{ site.title }}</title>
+<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+  <title>{{ site.title }}</title>
 
-  <meta charset="utf-8" />
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="description" content="{{ site.description }}" />
-  <meta name="keywords" content="{{ site.keywords }}" />
-  <meta name="author" content="{{ site.author }}" />
-  <link rel="shortcut icon" href="/favicon.ico" />
-  <link rel="stylesheet" type="text/css" href="/style.css" />
-  <link rel="stylesheet" type="text/css" href="/vendor/font-awesome-4.5.0/css/font-awesome.min.css">
-  <script type="text/javascript" src="/vendor/jquery/jquery-1.11.3.min.js"></script>
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  <link rel="stylesheet" href="/index.css">
+
 </head>
+<body>
 
-<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+{{ content }}
 
-  {{ content }}
+{% include analytics.html %}
+{% include metrika.html %}
 
-  <section id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col-xs-6">
-          Санкт-Петербург,
-          <br/>ул. Некрасова, 40, офис 32
-          <br/>+7 921 761-85-06
-        </div>
-        <div class="col-xs-6 text-right">
-          <a href="http://soedinennost.com/privacy">Политика конфиденциальности</a><br/>У тебя всё получится<br/>Записывайся
-        </div>
+<!--/noindex-->
+
+<noscript>
+  <div class="notice notice--warning">
+    <div class="row">
+      <!--noindex-->
+      Внимание! В вашем браузере отключен <b>JavaScript</b>. Для работы с сайтом, <b>включите его</b>.
+      <!--/noindex-->
     </div>
   </div>
+</noscript>
 
-  <!-- javascript -->
 
-  <script type="text/javascript" src="/vendor/jquery/jquery.validate.min.js"></script>
-  <script type="text/javascript" src="/vendor/jquery/jquery.validate.messages_ru.min.js"></script>
-  <script type="text/javascript" src="/vendor/validate.js"></script>
-  <script type="text/javascript" src="/vendor/bootstrap-3.3.6/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="/vendor/wow.min.js"></script>
-  <script type="text/javascript">
-    new WOW().init();
-  </script>
+<!-- begin JS-->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="/js/jquery.min.js"><\/script>')</script>
 
-  {% include metrika.html %}
+<script src="/js/plugins.min.js"></script>
+<script src="/js/main.js"></script>
+<!-- /END JS-->
 
 </body>
-
 </html>

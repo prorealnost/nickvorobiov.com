@@ -1,0 +1,10 @@
+.s-price {
+  padding-bottom: 0 !important;
+  .price {
+    background-color: $color-back;
+    padding: 2.857em;
+  }
+  &__stage {
+    margin-bottom: 2.143em;
+  }
+}

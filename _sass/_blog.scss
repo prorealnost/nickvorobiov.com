@@ -1,0 +1,29 @@
+.blog {
+  &__header {
+    padding: 40px 0;
+
+    /* background shade */
+    background:
+      linear-gradient(
+        rgba(255, 255, 255, 0.7), 
+        rgba(255, 255, 255, 0.7)
+      ),
+      url(/images/b_blog.jpg);
+
+    background-size: cover;
+    background-position: top right;
+    
+    h1 {
+      font-size: 6em;
+    }
+  }
+
+  &__post {
+    h1 {
+      a {
+        text-decoration: none;
+      }
+      margin-bottom: 0.8em;
+    }
+  }
+}

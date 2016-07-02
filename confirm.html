@@ -1,75 +1,64 @@
 ---
-layout: landing
+layout: base
 permalink: /confirm/
 ---
 
-<link rel="stylesheet" type="text/css" href="/confirm.css" />
+<div class="root-layout">
+  {% include header.html %}
+  <main class="main" role="main">
 
-<div id="header">
-  <div class="container">
-    <p class="pull-right">+7 921 7618506</p>
-    <img src="/images/logo.svg" />
-  </div>
+  <section class="section s-step">
+    <div class="container">
+      <h3 class="title title--center">
+        <b><em>Подтверди прямо сейчас</em></b> свою&nbsp;электронную&nbsp;почту
+      </h3>
+      <div class="step row">
+        <div class="step__item col-xs-4">
+          <h5>Проверь почтовый ящик</h5>
+          <p>который ты&nbsp;указал на&nbsp;предыдущей странице</p>
+        </div>
+        <div class="step__item col-xs-4">
+          <h5>Найди письмо</h5>
+          <p>от&nbsp;<b>Николая&nbsp;Воробьёва</b> и&nbsp;открой&nbsp;его</p>
+        </div>
+        <div class="step__item col-xs-4">
+          <h5>Кликни по&nbsp;ссылке</h5>
+          <p>подтверждения внутри письма</p>
+        </div>
+      </div>
+
+      <h3 class="text-center">Нажми чтобы проверить почту:</h3>
+
+      <div class="row">
+        <div class="col-xs-8 col-xs-offset-2">
+          <div class="row">
+            <div class="col-xs-3">
+              <a href="http://mail.yandex.ru" target="_blank">
+                <img src="/images/mail/yandex.png" class="img-responsive"/></a>
+              </a>
+            </div>
+            <div class="col-xs-3">
+              <a href="http://e.mail.ru" target="_blank">
+                <img src="/images/mail/mailru.png" class="img-responsive"/></a>
+              </a>
+            </div>
+            <div class="col-xs-3">
+              <a href="http://gmail.com" target="_blank">
+                <img src="/images/mail/google.png" class="img-responsive"/></a>
+              </a>
+            </div>
+            <div class="col-xs-3">
+              <a href="http://mail.rambler.ru" target="_blank">
+                <img src="/images/mail/rambler.png" class="img-responsive"/></a>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
 </div>
 
-<section id="hero">
-  <div class="container text-center">
-    <p class="lead">
-      <b><em>Подтверди прямо сейчас</em></b> свою&nbsp;электронную&nbsp;почту
-    </p>
-  </div>
-</section>
-
-<section id="main">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-8 col-xs-offset-2" id="steps" style="margin-bottom: 40px;">
-        <table>
-          <tr class="step">
-            <td class="img"><img src="/images/bulletimage1.png" /></td>
-            <td class="text">Проверь e-mail, который ты&nbsp;указал на&nbsp;предыдущей странице</td>
-            <td class="icon"><i class="fa fa-envelope"></i></div>
-          </div>
-          <tr class="step">
-            <td class="img"><img src="/images/bulletimage2.png" /></td>
-            <td class="text">Найди письмо от&nbsp;<b>Николая&nbsp;Воробьёва</b> и&nbsp;открой&nbsp;его</td>
-            <td class="icon"><i class="fa fa-search"></i></div>
-          </div>
-          <tr class="step">
-            <td class="img"><img src="/images/bulletimage3.png" /></td>
-            <td class="text">Кликни по&nbsp;ссылке подтверждения внутри письма</td>
-            <td class="icon"><i class="fa fa-check"></i></div>
-          </div>
-        </table>
-      </div>
-    </div>
-  </div>
-</section>
-
-<section id="checkmail">
-  <div class="container">
-    <h2>Нажми чтобы проверить почту:</h2>
-    <div class="row">
-      <div class="col-xs-3">
-        <a href="http://mail.yandex.ru" target="_blank">
-          <img src="/images/mail/yandex.png" class="img-responsive"/></a>
-        </a>
-      </div>
-      <div class="col-xs-3">
-        <a href="http://e.mail.ru" target="_blank">
-          <img src="/images/mail/mailru.png" class="img-responsive"/></a>
-        </a>
-      </div>
-      <div class="col-xs-3">
-        <a href="http://gmail.com" target="_blank">
-          <img src="/images/mail/google.png" class="img-responsive"/></a>
-        </a>
-      </div>
-      <div class="col-xs-3">
-        <a href="http://mail.rambler.ru" target="_blank">
-          <img src="/images/mail/rambler.png" class="img-responsive"/></a>
-        </a>
-      </div>
-    </div>
-  </div>
-</section>
+{% include footer.html %}
