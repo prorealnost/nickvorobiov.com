@@ -1,32 +1,52 @@
 ---
-layout: page
+layout: default
 ---
 
-<div class="blog-post">
-  {{ content }}
+<div class="container">
+  <div class="blog-header">
+    <h1 class="blog-title">{{ page.title }}</h1>
+    <p class="lead blog-subtitle">{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.title }}{% endif %}</p>
+  </div>
 
-  {% include post_meta.html post=page %}
-</div><!-- /.blog-post -->
+  <div class="row">
+    <div class="col-md-8 blog-main">
 
-<nav>
-  <ul class="pager">
-    {% if page.previous.url %}
-      <li>
-        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">&larr; сюда</a>
-      </li>
-    {% else %}
-      <li class="disabled">
-        <a>&larr; сюда</a>
-      </li>
-    {% endif %}
-    {% if page.next.url %}
-      <li>
-        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">туда &rarr;</a>
-      </li>
-    {% else %}
-      <li class="disabled">
-        <a>туда &rarr;</a>
-      </li>
-    {% endif %}
-  </ul>
-</nav>
+      <div class="blog-post">
+        {{ content }}
+
+        {% include post_meta.html post=page %}
+      </div><!-- /.blog-post -->
+
+      <nav>
+        <ul class="pager">
+          {% if page.previous.url %}
+            <li>
+              <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">&larr; сюда</a>
+            </li>
+          {% else %}
+            <li class="disabled">
+              <a>&larr; сюда</a>
+            </li>
+          {% endif %}
+          {% if page.next.url %}
+            <li>
+              <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">туда &rarr;</a>
+            </li>
+          {% else %}
+            <li class="disabled">
+              <a>туда &rarr;</a>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>
+
+    </div><!-- /.blog-main -->
+
+    <div class="col-md-3 col-md-offset-1 blog-sidebar">
+      {% include sidebar.html %}
+    </div><!-- /.blog-sidebar -->
+
+  </div><!-- /.row -->
+
+</div><!-- /.container -->
+
