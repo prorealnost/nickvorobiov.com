@@ -1,0 +1,30 @@
+---
+layout: page
+---
+
+<div class="blog-post">
+  {{ content }}
+</div><!-- /.blog-post -->
+
+<nav>
+  <ul class="pager">
+    {% if page.previous.url %}
+      <li>
+        <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}">&larr; сюда</a>
+      </li>
+    {% else %}
+      <li class="disabled">
+        <a>&larr; сюда</a>
+      </li>
+    {% endif %}
+    {% if page.next.url %}
+      <li>
+        <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}">туда &rarr;</a>
+      </li>
+    {% else %}
+      <li class="disabled">
+        <a>туда &rarr;</a>
+      </li>
+    {% endif %}
+  </ul>
+</nav>

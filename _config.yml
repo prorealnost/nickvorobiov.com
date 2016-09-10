@@ -6,11 +6,15 @@ exclude:
   - package.json
   - README.md
   - gulpfile.js
+  - '*.scss'
 yandex_metrika: 36255245
 google_analytics: UA-46456269-10
 permalink: /:title/
 
-title: "Николай Воробьёв"
-description: "Помогаю перестать быть такой жалкой тряпкой"
+title: "Блог Николая Воробьёва"
+description: "Сделаю из тебя победителя"
 keywords: "#ШоуВоробьёва"
 author: "Николай Воробьёв"
+
+gems: [jekyll-paginate]
+paginate: 20

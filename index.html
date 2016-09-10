@@ -1,74 +1,35 @@
 ---
-layout: base
+layout: page
+title: Блог
+group: navigation
 ---
 
-<div class="root-layout">
-  {% include header.html %}
-  <main class="main" role="main">
-    <section id="first" class="section s-main">
-      <div class="container">
-        <div class="s-main__inner">
-          <h1 class="s-main__title">
-            <em>Николай Воробьёв</em>
-            сделаю из тебя победителя
-          </h1>
-        </div>
-        <span class="s-main__sign">Николай Воробьёв</span>
-      </div>
-    </section>
+{% for post in paginator.posts %}
+<div class="blog-post-preview">
+  <a href="{{ post.url }}">
+    <h2 class="blog-post-title">{{ post.title }}</h2>
+    {% if post.subtitle %}
+      <p class="lead blog-post-subtitle">{{ post.subtitle }}</p>
+    {% endif %}
+  </a>
+  <p class="blog-post-meta">{{ post.date | date: "%B %-d, %Y" }} by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</p>
+</div><!-- /.blog-post -->
+{% endfor %}
 
-    <section class="section">
-      <div class="container">
-        <h2 class="title">Помогаю становиться лучше и достигать больших целей</h2>
-        <ul class="introtext">
-          <li>Поверить в себя</li>
-          <li>Активно влиять на свою жизнь</li>
-          <li>Добиваться гораздо большего</li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="section section--tight">
-      <div class="container">
-        <h2 class="title">Ты&nbsp;возьмёшь жизнь в&nbsp;свои руки и&nbsp;прокачаешь себя</h2>
-        <div class="row">
-          <div class="col-xs-4">
-            <h5>Узнаешь свои приоритеты</h5>
-            <p>Поймёшь свои желания, ценности и&nbsp;жизненные цели. Станешь стремиться к&nbsp;большим результатам.</p>
-          </div>
-          <div class="col-xs-4">
-            <h5>Поверишь в себя</h5>
-            <p>Начнёшь верить в&nbsp;свою способность достичь высокой планки, и не останавливаться на достигнутом.</p>
-          </div>
-          <div class="col-xs-4">
-            <h5>Разовьёшь качества</h5>
-            <p>Приобретёшь новые личные качества и&nbsp;станешь лучше</p>
-          </div>
-          <div class="col-xs-4">
-            <h5>Выработаешь навыки</h5>
-            <p>Научишься тем навыкам, которые необходимы для достижения целей</p>
-          </div>
-          <div class="col-xs-4">
-            <h5>Станешь ответственным</h5>
-            <p>Научишься брать на&nbsp;себя ответственность, и влиять на&nbsp;других</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section--tight">
-      <div class="container">
-        <h2 class="title">Результат&nbsp;— повысишь качество жизни</h2>
-        <ul class="introtext">
-          <li>Сможешь зарабатывать больше</li>
-          <li>Построишь лучшие отношения</li>
-          <li>Станешь реализованным и счастливым</li>
-        </ul>
-      </div>
-    </section>
-
-    {% include s-subscribe.html %}
-  </main>
-</div>
-
-{% include footer.html %}
+<!-- Paginator -->
+{% if paginator.total_pages > 1 %}
+  <nav>
+    <ul class="pager">
+      {% if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; сюда</a></li>
+      {% else %}
+        <li class="disabled"><a>&larr; сюда</a></li>
+      {% endif %}
+      {% if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">туда &rarr;</a></li>
+      {% else %}
+        <li class="disabled"><a>туда &rarr;</a></li>
+      {% endif %}
+    </ul>
+  </nav>
+{% endif %}

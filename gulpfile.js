@@ -21,7 +21,10 @@ gulp.task('jekyll', function(done) {
   notify('Compiling Jekyll');
 
   return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-  .on('close', done);
+  .on('close', function(){
+    gulp.start('css');
+    done();
+  });
 });
 
 gulp.task('jekyll-rebuild', ['jekyll'], function() {    
@@ -31,8 +34,9 @@ gulp.task('jekyll-rebuild', ['jekyll'], function() {
 });
 
 gulp.task('css', function() {
-  return gulp.src('./_sass/*.scss')
+  return gulp.src(['./_sass/*.scss', './*.scss'])
     .pipe( sass() )
+    .pipe( gulp.dest('./') )
     .pipe( gulp.dest('./_site') )
     .pipe( connect.reload() )
     .pipe( notify('CSS task complete!') )
@@ -43,26 +47,11 @@ gulp.task('default', ['connectBuild', 'watch'], function() {
   gulp.start('jekyll');
 });
 
-/* Run without jekyll, only copy /fast.html */
-gulp.task('fastbuild', function() {
-  gulp.src('./fast.html')
-    .pipe( gulp.dest('./_site') )
-    .pipe( connect.reload() )
-    .pipe( notify('Fast build complete!') )
-});
-gulp.task('fastwatch', function() {
-  gulp.watch('./_sass/*.scss', ['css']);
-  // images are not really processed yet
-  gulp.watch(['fast.html', 'images/*'], ['fastbuild']); 
-});
-gulp.task('fast', ['css', 'connectBuild', 'fastwatch'], function() {
-  gulp.start('fastbuild');
-});
-
 /* Watch task */
 gulp.task('watch', function() {
-  gulp.watch('./_sass/*.scss', ['css']);
-  gulp.watch(['*.md', '*.html', '_layouts/*.html', '_posts/*', 'images/*', '*.yml', '_klr/*', '_includes/*', '_cats/*', '_klr-weekly/*', '_quests/*', 'enjoy/*', 'funnel/**/*', 'js/*.js'], ['jekyll-rebuild']);
+  gulp.watch(['./_sass/*.scss', './*.scss'], ['css']);
+  gulp.watch([
+    '*.md', '*.html', '_layouts/*.html', '_posts/**/*',
+    'images/*', '*.yml', '_includes/*', 'js/*.js'
+  ], ['jekyll-rebuild']);
 });
-
-// for i in {1..8}; do convert learn-icon-$i.png -gravity center -background none -extent 165x165 learn-icon-$i-extend.png; done
