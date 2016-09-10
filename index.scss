@@ -128,6 +128,16 @@ h6 { font-size: 1em;     }//14
     margin-bottom: 5px;
     font-size: 28px;
   }
+
+  p {
+    margin: 0;
+
+    &.blog-post-category{
+      a {
+        color: $link-color;
+      }
+    }
+  }
 }
 
 .blog-post {
@@ -141,7 +151,22 @@ h6 { font-size: 1em;     }//14
   .audiojs {
     margin-bottom: 2em;
   }
+
+  p {
+    &.blog-post-meta {
+      margin: 2em 0 0 0;
+    }
+
+    &.blog-post-category {
+      margin: 0;
+      a {
+        color: $link-color;
+      }
+    }
+  }
+
 }
+
 .blog-post-meta {
   margin-bottom: 20px;
   color: #999;
@@ -154,6 +179,7 @@ h6 { font-size: 1em;     }//14
 
 .blog-footer {
   padding: 40px 0;
+  margin-top: 80px;
   color: #999;
   text-align: center;
   background-color: #f9f9f9;

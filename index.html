@@ -1,19 +1,10 @@
 ---
 layout: page
-title: Блог
 group: navigation
 ---
 
 {% for post in paginator.posts %}
-<div class="blog-post-preview">
-  <a href="{{ post.url }}">
-    <h2 class="blog-post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-      <p class="lead blog-post-subtitle">{{ post.subtitle }}</p>
-    {% endif %}
-  </a>
-  <p class="blog-post-meta">{{ post.date | date: "%B %-d, %Y" }} by {% if post.author %}{{ post.author }}{% else %}{{ site.author }}{% endif %}</p>
-</div><!-- /.blog-post -->
+  {% include post_list.html post=post %}
 {% endfor %}
 
 <!-- Paginator -->

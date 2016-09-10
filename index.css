@@ -6058,6 +6058,10 @@ h6 {
   .blog-post-preview .blog-post-title {
     margin-bottom: 5px;
     font-size: 28px; }
+  .blog-post-preview p {
+    margin: 0; }
+    .blog-post-preview p.blog-post-category a {
+      color: #337ab7; }
 
 .blog-post {
   margin-bottom: 60px; }
@@ -6066,6 +6070,12 @@ h6 {
     margin-bottom: 0.75em; }
   .blog-post .audiojs {
     margin-bottom: 2em; }
+  .blog-post p.blog-post-meta {
+    margin: 2em 0 0 0; }
+  .blog-post p.blog-post-category {
+    margin: 0; }
+    .blog-post p.blog-post-category a {
+      color: #337ab7; }
 
 .blog-post-meta {
   margin-bottom: 20px;
@@ -6076,6 +6086,7 @@ h6 {
  */
 .blog-footer {
   padding: 40px 0;
+  margin-top: 80px;
   color: #999;
   text-align: center;
   background-color: #f9f9f9;

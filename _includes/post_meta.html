@@ -1,0 +1,10 @@
+<p class="blog-post-meta">{{ include.post.date | date: "%B %-d, %Y" }} by {% if include.post.author %}{{ include.post.author }}{% else %}{{ site.author }}{% endif %}</p>
+<p class="blog-post-category">
+  {% for post_cat in include.post.categories %}
+    {% for cat in site.data.categories %}
+      {% if cat.name == post_cat %}
+        <a href="/categories/{{ cat.name }}/">#{{ cat.title }}</a>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</p>

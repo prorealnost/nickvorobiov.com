@@ -1,0 +1,9 @@
+<div class="blog-post-preview">
+  <a href="{{ post.url }}">
+    <h2 class="blog-post-title">{{ post.title }}</h2>
+    {% if post.subtitle %}
+      <p class="lead blog-post-subtitle">{{ post.subtitle }}</p>
+    {% endif %}
+  </a>
+  {% include post_meta.html post=post %}
+</div><!-- /.blog-post -->
