@@ -21,3 +21,5 @@ gems: [jekyll-paginate]
 paginate: 20
 
 fb_app_id: 255302648202942
+post_pictures: /images/post/
+array: []

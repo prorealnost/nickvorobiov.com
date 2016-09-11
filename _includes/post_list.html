@@ -1,15 +1,54 @@
 <div class="blog-post-preview">
-  <a href="{{ post.url }}">
-    <h2 class="blog-post-title">{{ post.title }}</h2>
-    {% if post.subtitle %}
-      <p class="lead blog-post-subtitle">{{ post.subtitle }}</p>
-    {% endif %}
-  </a>
+  {% if post.picture %}
+    <a href="{{ post.url }}">
+      <div class="blog-post-preview--picture" style="background-image: url({{ site.post_pictures }}{{ post.picture }})">
+      </div>
+    </a>
+  {% endif %}
   <div class="row">
-    <div class="col-xs-8">
+    <div class="col-xs-6">
+      <p class="blog-post-category">
+        {% for post_cat in post.categories %}
+          {% for cat in site.data.categories %}
+            {% if cat.name == post_cat %}
+              <a href="/categories/{{ cat.name }}/">#{{ cat.title }}</a>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </p>
+    </div>
+    <div class="col-xs-6">
       {% include share.html url=post.url picture=post.picture title=post.title subtitle=post.subtitle %}
     </div>
   </div>
-
-  {% include post_meta.html post=post %}
+  <div class="row">
+    <div class="col-xs-6">
+      <a href="{{ post.url }}">
+        <h2 class="blog-post-title">{{ post.title }}</h2>
+        {% if post.subtitle %}
+          <p class="lead blog-post-subtitle">{{ post.subtitle }}</p>
+        {% endif %}
+      </a>
+    </div>
+    <div class="col-xs-6">
+      <p class="blog-post-meta">
+        {{ include.post.date | date: "%B %-d, %Y" }}
+      </p>
+      <p class="lead">
+        {{ post.teaser }}
+      </p>
+      <p class="lead">
+        <a class="btn btn-default" href="{{ post.url }}">
+          {% if post.categories contains 'audio' %}
+            Слушать аудио
+          {% elsif post.categories contains 'show' %}
+            Смотреть видео
+          {% else %}
+            Читать статью
+          {% endif %}
+          <i class="fa fa-arrow-right"></i>
+        </a>
+      </p>
+    </div>
+  </div>
 </div><!-- /.blog-post -->
