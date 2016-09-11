@@ -5,5 +5,11 @@
       <p class="lead blog-post-subtitle">{{ post.subtitle }}</p>
     {% endif %}
   </a>
+  <div class="row">
+    <div class="col-xs-8">
+      {% include share.html url=post.url picture=post.picture title=post.title subtitle=post.subtitle %}
+    </div>
+  </div>
+
   {% include post_meta.html post=post %}
 </div><!-- /.blog-post -->

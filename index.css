@@ -5960,6 +5960,49 @@ button.close {
 .form .btn {
   width: 100%; }
 
+/* SASS / Social Media Brand Colors */
+/* share */
+.btn-share {
+  font-size: 24px;
+  line-height: 1;
+  height: auto;
+  padding: 5px;
+  min-width: auto; }
+
+.btn-share,
+.btn-share:active,
+.btn-share:hover,
+.btn-share:focus,
+.btn-share:visited {
+  color: white; }
+
+.btn-share-fb,
+.btn-share-fb:active,
+.btn-share-fb:focus,
+.btn-share-fb:visited {
+  background: #3b5998; }
+
+.btn-share-fb:hover {
+  background: #2d4373; }
+
+.btn-share-tw,
+.btn-share-tw:active,
+.btn-share-tw:focus,
+.btn-share-tw:visited {
+  background: #00aced; }
+
+.btn-share-tw:hover {
+  background: #0087ba; }
+
+.btn-share-vk,
+.btn-share-vk:active,
+.btn-share-vk:focus,
+.btn-share-vk:visited {
+  background: #45668e; }
+
+.btn-share-vk:hover {
+  background: #344d6c; }
+
 .audiojs {
   width: 480px;
   height: 46px;
@@ -6188,7 +6231,7 @@ h6 {
       color: #337ab7; }
 
 .blog-post {
-  margin-bottom: 60px; }
+  margin-bottom: 40px; }
   .blog-post h1, .blog-post h2, .blog-post h3 {
     margin-top: 1.5em;
     margin-bottom: 0.75em; }
@@ -6202,7 +6245,6 @@ h6 {
       color: #337ab7; }
 
 .blog-post-meta {
-  margin-bottom: 20px;
   color: #999; }
 
 /*
@@ -6245,3 +6287,8 @@ h6 {
   .btn {
     min-width: auto;
     padding: 0; } }
+
+.post-sharing {
+  margin: 5px -5px; }
+  .post-sharing > div {
+    padding: 0 5px; }

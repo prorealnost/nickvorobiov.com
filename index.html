@@ -2,6 +2,7 @@
 layout: page
 group: navigation
 title: Блог
+homepage: true
 ---
 
 {% for post in paginator.posts %}
@@ -13,12 +14,12 @@ title: Блог
   <nav>
     <ul class="pager">
       {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; сюда</a></li>
+        <li><a href="{{ paginator.previous_page_path }}">&larr; сюда</a></li>
       {% else %}
         <li class="disabled"><a>&larr; сюда</a></li>
       {% endif %}
       {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">туда &rarr;</a></li>
+        <li><a href="{{ paginator.next_page_path }}">туда &rarr;</a></li>
       {% else %}
         <li class="disabled"><a>туда &rarr;</a></li>
       {% endif %}

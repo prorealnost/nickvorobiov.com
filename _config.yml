@@ -1,4 +1,4 @@
-baseurl: ""
+baseurl: "http://nickvorobiov.com/"
 url: "http://nickvorobiov.com"
 markdown: kramdown
 exclude:
@@ -10,6 +10,7 @@ exclude:
 yandex_metrika: 36255245
 google_analytics: UA-46456269-10
 permalink: /:title/
+export_logo: /images/icon/social_photo.jpg
 
 title: "Блог Николая Воробьёва"
 description: "Сделаю из тебя победителя"
@@ -18,3 +19,5 @@ author: "Николай Воробьёв"
 
 gems: [jekyll-paginate]
 paginate: 20
+
+fb_app_id: 255302648202942

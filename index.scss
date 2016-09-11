@@ -152,7 +152,7 @@ h6 { font-size: 1em;     }//14
 }
 
 .blog-post {
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 
   h1,h2,h3 {
     margin-top: 1.5em;
@@ -179,7 +179,6 @@ h6 { font-size: 1em;     }//14
 }
 
 .blog-post-meta {
-  margin-bottom: 20px;
   color: #999;
 }
 
@@ -235,3 +234,11 @@ h6 { font-size: 1em;     }//14
     padding: 0;
   }
 }
+
+.post-sharing {
+  margin: 5px -5px;
+  & > div {
+    padding: 0 5px;
+  }
+}
+
