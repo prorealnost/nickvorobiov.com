@@ -1,4 +1,4 @@
 <div class="header">
   <h1 class="header--title">{% if include.title %}{{ include.title }}{% else %}{{ site.title }}{% endif %}</h1>
-  <p class="lead header--subtitle">{% if include.subtitle %}{{ include.subtitle }}{% else %}{{ site.description }}{% endif %}</p>
+  <p class="lead header--subtitle">{% if page.homepage %}{{ site.description }}{% elsif include.subtitle %}{{ include.subtitle }}{% elsif include.title %}{{ site.title }}{% else %}{{ site.description }}{% endif %}</p>
 </div>

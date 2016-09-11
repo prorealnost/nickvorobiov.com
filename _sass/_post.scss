@@ -20,4 +20,29 @@
       }
     }
   }
+
+  &--picture {
+    background: #000;
+    background-size: cover !important;
+    background-position: center !important;
+    color: #fff;
+
+    padding: 100px 0;
+    @media (max-width: $screen-xs-max) {
+      padding: 50px 0;
+    }
+
+    .header--subtitle {
+      color: white;
+    }
+  }
+
+  .main {
+    padding-top: 20px;
+  }
+}
+
+.footer {
+  position: relative;
+  z-index: 500;
 }

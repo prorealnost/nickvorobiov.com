@@ -2,16 +2,15 @@
 layout: default
 ---
 
-{% if post.picture %}
-  <div class="post--picture" style="background-image: url({{ site.post_pictures }}{{ post.picture }})">
+<div class="post--picture" style="{% if page.picture %}background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.post_pictures }}{{ page.picture }}){% endif %}">
+  <div class="container">
+    {% include header.html title=page.title subtitle=page.subtitle %}
   </div>
-{% endif %}
+</div>
 
-<div class="container">
+<div class="container post">
   <div class="row">
-    <div class="col-md-8 main post">
-      {% include header.html title=page.title subtitle=page.subtitle %}
-
+    <div class="col-md-8 main">
       <p class="post--meta">
         {{ page.date | date: "%B %-d, %Y" }}
       </p>
@@ -27,7 +26,5 @@ layout: default
     <div class="col-md-3 col-md-offset-1 sidebar">
       {% include sidebar.html %}
     </div>
-
   </div>
-
 </div>
