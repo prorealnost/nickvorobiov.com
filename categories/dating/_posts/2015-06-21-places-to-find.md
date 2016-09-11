@@ -94,5 +94,3 @@ title: Где найти хорошую девушку
 
 - Ограниченный выбор
 - [Не сри где живёшь](/dont-shit-where-you-eat/)
-
-Николай Воробьёв для [amoral.ninja](http://amoral.ninja/)
