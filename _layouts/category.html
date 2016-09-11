@@ -5,18 +5,14 @@ layout: default
 {% for cat in site.data.categories %}
   {% if cat.name == page.category %}
     {% assign cat_name = cat.name %}
-    {% assign cat_title = cat.title %}
+    {% assign cat_title = '#' | append: cat.title %}
   {% endif %}
 {% endfor %}
 
 <div class="container">
-  <div class="blog-header">
-    <h1 class="blog-title">{{ cat_title }}</h1>
-    <p class="lead blog-subtitle"><a href="/">{{ site.title }}</a></p>
-  </div>
-
   <div class="row">
-    <div class="col-md-8 blog-main">
+    <div class="col-md-8 main">
+      {% include header.html title=cat_title subtitle=site.title%}
 
       {% for post in site.categories[cat_name] %}
         {% include post_list.html post=post %}
@@ -24,7 +20,7 @@ layout: default
 
     </div><!-- /.blog-main -->
 
-    <div class="col-md-3 col-md-offset-1 blog-sidebar">
+    <div class="col-md-3 col-md-offset-1 sidebar">
       {% include sidebar.html %}
     </div><!-- /.blog-sidebar -->
 

@@ -1,4 +1,4 @@
-<div class="blog-header">
-  <h1 class="blog-title">{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-  <p class="lead blog-subtitle">{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.subtitle }}{% endif %}</p>
+<div class="header">
+  <h1 class="header--title">{% if include.title %}{{ include.title }}{% else %}{{ site.title }}{% endif %}</h1>
+  <p class="lead header--subtitle">{% if include.subtitle %}{{ include.subtitle }}{% else %}{{ site.description }}{% endif %}</p>
 </div>

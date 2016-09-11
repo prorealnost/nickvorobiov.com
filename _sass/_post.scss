@@ -1,0 +1,23 @@
+@import '_variables';
+
+.post {
+  &--content {
+    margin-bottom: 20px;
+
+    font-size: 18px;
+    line-height: 1.5;
+
+    h1,h2,h3,h4,h5,h6 {
+      margin-top: 1.5em;
+      margin-bottom: 0.75em;
+    }
+
+    p,li {
+      font-size: 18px;
+
+      @media (max-width: $screen-xs-max) {
+        font-size: 16px;
+      }
+    }
+  }
+}

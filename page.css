@@ -1,0 +1,124 @@
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  .header--title {
+    margin-top: 30px;
+    margin-bottom: 0;
+    font-size: 36px; }
+    @media (min-width: 768px) {
+      .header--title {
+        font-size: 48px; } }
+  .header--subtitle {
+    font-size: 20px;
+    color: #999; }
+
+.sidebar {
+  padding-top: 3em; }
+  .sidebar--module {
+    padding: 15px;
+    margin: 0 -15px 15px; }
+    .sidebar--module-inset {
+      padding: 15px;
+      background-color: #f5f5f5;
+      border-radius: 4px; }
+      .sidebar--module-inset p:last-child,
+      .sidebar--module-inset ul:last-child,
+      .sidebar--module-inset ol:last-child {
+        margin-bottom: 0; }
+  .sidebar--userpic {
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    width: 162px; }
+    .sidebar--userpic img {
+      height: 160px;
+      width: 160px;
+      background-color: #fff;
+      border: 4px solid #fff; }
+  .sidebar--social {
+    margin-top: 10px; }
+
+/*
+ * Blog name and description
+
+
+.blog-main {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.blog-sidebar {
+}
+
+
+.blog-post-preview {
+  margin-bottom: 60px;
+
+  &--picture {
+    width: 100%;
+    padding-bottom: 50%;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  }
+
+  .blog-post-title {
+    margin-bottom: 5px;
+    font-size: 28px * 0.75;
+    @media (min-width: 768px) {
+      font-size: 28px;
+    }
+  }
+
+  p {
+    margin: 0;
+
+    &.blog-post-category{
+      a {
+        color: $link-color;
+      }
+    }
+  }
+}
+
+.blog-post {
+  margin-bottom: 40px;
+
+  h1,h2,h3 {
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
+
+  .audiojs {
+    margin-bottom: 2em;
+  }
+
+  p {
+    &.blog-post-meta {
+      margin: 2em 0 0 0;
+    }
+
+    &.blog-post-category {
+      margin: 0;
+      a {
+        color: $link-color;
+      }
+    }
+  }
+
+}
+
+.blog-post-meta {
+  color: #999;
+}
+
+
+
+.post-sharing {
+  margin: 5px -5px;
+  & > div {
+    padding: 0 5px;
+  }
+}
+
+*/

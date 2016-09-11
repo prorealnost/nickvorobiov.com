@@ -1,3 +1,5 @@
+@import 'bootstrap/_variables.scss';
+
 $color-primary: #f1d725;
 $color-success: #009835;
 $color-error:   #AB0D0D;
@@ -6,3 +8,17 @@ $color-font:    #333;
 $color-footer:  lighten(#0e0e0e, 75%);
 
 $font: 'Muller', sans-serif;
+
+$font-size-h1: 2.857em;
+$font-size-h2: 2.143em;
+$font-size-h3: 1.714em;
+$font-size-h4: 1.286em;
+$font-size-h5: 1em;
+$font-size-h6: 1em;
+
+$font-size-h1-xs: $font-size-h1 * 0.75;
+$font-size-h2-xs: $font-size-h2 * 0.75;
+$font-size-h3-xs: $font-size-h3 * 0.75;
+$font-size-h4-xs: $font-size-h4 * 0.75;
+$font-size-h5-xs: $font-size-h5 * 0.75;
+$font-size-h6-xs: $font-size-h6 * 0.75;
