@@ -5842,6 +5842,124 @@ button.close {
   font-weight: 800;
   font-style: normal; }
 
+/* BUTTONS
+---------------------------------------- */
+.btn-wrap {
+  padding: 50px 0; }
+  .btn-wrap--center {
+    text-align: center; }
+
+.btn {
+  font: 800 0.857rem/1 "Muller", sans-serif;
+  background: #f2f2f2;
+  border: 0;
+  border-radius: 5px;
+  color: #333;
+  padding: 0 2.500em;
+  height: 4.167em;
+  line-height: 4.500em;
+  min-width: 15.714em;
+  vertical-align: top;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  appearance: none;
+  outline: 0;
+  white-space: nowrap;
+  transition: all .3s ease; }
+  .btn:hover {
+    background: #f7f7f7; }
+  .btn:active {
+    background: #ededed; }
+  .btn-vk {
+    background: #507299;
+    color: white; }
+    .btn-vk img {
+      vertical-align: middle;
+      margin-top: -6px;
+      margin-left: 6px; }
+    .btn-vk:hover {
+      background: #5477a0; }
+    .btn-vk:active {
+      background: #4c6d92; }
+  .btn-primary, .btn-primary:hover, .btn-primary:active {
+    background: #f1d725; }
+    .btn-primary:hover, .btn-primary:hover:hover, .btn-primary:active:hover {
+      background: #f4e055;
+      color: #1a1a1a; }
+    .btn-primary:active, .btn-primary:hover:active, .btn-primary:active:active {
+      background: #edd10f; }
+  .btn-success, .btn-success:hover, .btn-success:active {
+    color: white;
+    background: #009835;
+    cursor: default; }
+  .btn-outline, .btn-outline:hover, .btn-outline:active {
+    background: none;
+    box-shadow: inset 0 0 0 2px #f1d725; }
+  .btn-outline:hover {
+    background: #f1d725; }
+  .btn-outline:active {
+    background: #f0d51b; }
+  .btn--sm {
+    font-weight: 500;
+    text-transform: none;
+    height: 40px;
+    line-height: 42px;
+    padding: 0 30px; }
+  .btn--lg {
+    border-radius: 10px;
+    font-size: 1rem;
+    height: 6.429em;
+    width: 100%;
+    line-height: 6.714em;
+    padding: 0 6.429em; }
+
+::-webkit-input-placeholder {
+  color: #666; }
+
+:-moz-placeholder {
+  color: #666; }
+
+.form__wrap {
+  margin: 2.286rem -1.071rem;
+  font-size: 0; }
+
+.form__item {
+  font-size: 1rem;
+  width: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding: 0.3rem 1.071rem; }
+
+.form .label {
+  float: left;
+  margin-top: -30px; }
+
+.form .input {
+  color: #333;
+  font: 700 0.857rem/4.5em "Muller", sans-serif;
+  width: 100%;
+  height: 4.167em;
+  min-width: 15.714em;
+  border: 0;
+  border-radius: 5px;
+  padding: 0 20px;
+  border: 2px solid transparent;
+  transition: all .2s;
+  /*&.valid,
+    &:focus:valid {
+      border-color: $color-primary;
+    }*/ }
+  .form .input.error, .form .input.required, .form .input:focus:invalid {
+    border-color: #AB0D0D; }
+  .form .input--outline {
+    border-color: #f2f2f2; }
+
+.form .btn {
+  width: 100%; }
+
 .audiojs {
   width: 480px;
   height: 46px;
@@ -5946,7 +6064,8 @@ html {
 
 body {
   font: 1rem/1.75 "Muller", sans-serif;
-  color: #333; }
+  color: #333;
+  margin-top: 50px; }
 
 a {
   color: #333; }
@@ -6017,6 +6136,9 @@ h6 {
   line-height: 1.5; }
 
 /* Sidebar modules for boxing content */
+.blog-sidebar {
+  padding-top: 3em; }
+
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px; }
@@ -6093,3 +6215,31 @@ h6 {
   border-top: 1px solid #e5e5e5; }
   .blog-footer p:last-child {
     margin-bottom: 0; }
+
+/* Header */
+.header {
+  padding: 5px 0;
+  background-color: #333; }
+  .header__logo .logo {
+    font-size: 29px;
+    color: white;
+    font-weight: 600; }
+
+.container {
+  min-width: 320px; }
+
+@media (max-width: 600px) {
+  .header__logo {
+    margin: 13px 0; }
+    .header__logo .logo {
+      font-size: 14px; } }
+  @media (max-width: 600px) and (min-width: 440px) {
+    .header__logo {
+      margin: 7px 0; }
+      .header__logo .logo {
+        font-size: 20px; } }
+
+@media (max-width: 600px) {
+  .btn {
+    min-width: auto;
+    padding: 0; } }

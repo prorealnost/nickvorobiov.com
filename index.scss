@@ -1,6 +1,7 @@
 @import '_sass/_bootstrap';
 @import '_sass/_variables';
 @import '_sass/_fonts';
+@import '_sass/_controls';
 @import '_sass/_audiojs';
 
 /*
@@ -14,6 +15,7 @@ html {
 body {
   font: 1rem/1.75 $font;
   color: $color-font;
+  margin-top: 50px;
 }
 
 a {
@@ -75,6 +77,10 @@ h6 { font-size: 1em;     }//14
 }
 
 /* Sidebar modules for boxing content */
+.blog-sidebar {
+  padding-top: 3em;
+}
+
 .sidebar-module {
   padding: 15px;
   margin: 0 -15px 15px;
@@ -92,6 +98,7 @@ h6 { font-size: 1em;     }//14
     }
   }
 }
+
 .sidebar-module-inset {
   padding: 15px;
   background-color: #f5f5f5;
@@ -187,5 +194,40 @@ h6 { font-size: 1em;     }//14
 
   p:last-child {
     margin-bottom: 0;
+  }
+}
+
+/* Header */
+.header {
+  padding: 5px 0;
+  background-color: #333;
+
+  &__logo .logo {
+    font-size: 29px;
+    color: white;
+    font-weight: 600;
+  }
+}
+
+.container {
+  min-width: 320px;
+}
+
+@media (max-width: 600px) {
+  .header__logo {
+    margin: 13px 0;
+    .logo {
+      font-size: 14px;
+    }
+    @media (min-width: 440px) {
+      margin: 7px 0;
+      .logo {
+        font-size: 20px;
+      }
+    }
+  }
+  .btn {
+    min-width: auto;
+    padding: 0;
   }
 }

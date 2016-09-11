@@ -3,13 +3,12 @@ layout: default
 ---
 
 <div class="container">
-  <div class="blog-header">
-    <h1 class="blog-title">{{ page.title }}</h1>
-    <p class="lead blog-subtitle">{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.title }}{% endif %}</p>
-  </div>
-
   <div class="row">
     <div class="col-md-8 blog-main">
+      <div class="blog-header">
+        <h1 class="blog-title">{{ page.title }}</h1>
+        <p class="lead blog-subtitle">{% if page.subtitle %}{{ page.subtitle }}{% else %}{{ site.title }}{% endif %}</p>
+      </div>
 
       <div class="blog-post">
         {{ content }}
