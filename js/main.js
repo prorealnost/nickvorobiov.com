@@ -5,9 +5,17 @@ function share($btn) {
   var platform = $btn.attr('data-platform');
   var permalink = '{{ site.url }}' + $btn.attr('data-permalink');
   var picture = $btn.attr('data-picture') || false;
+
+  if (picture) {
+    picture = '{{ site.url }}{{ site.post_pictures }}' + picture;
+  } else {
+    picture = '{{ site.url }}{{ site.export_logo }}';
+  }
+
   var post_title = $btn.attr('data-title');
   var post_subtitle = $btn.attr('data-subtitle');
-  
+  var post_description = $btn.attr('data-description') || '{{ site.title }}';
+
   var options;
   switch(platform) {
     case 'facebook':
@@ -17,8 +25,9 @@ function share($btn) {
           display: 'popup',
           app_id: '{{ site.fb_app_id }}',
           link: permalink,
-          caption: post_title,
-          picture: picture ? picture : '{{ site.url }}{{ site.export_logo }}'
+          name: post_title,
+          description: post_description,
+          picture: picture
         },
         size: { width: 555, height: 577 }
       }
@@ -40,8 +49,8 @@ function share($btn) {
         params: {
           url: permalink,
           title: post_title,
-          description: post_subtitle ? post_subtitle : '{{ site.title }}',
-          image: picture ? picture : '{{ site.url }}{{ site.export_logo }}'
+          description: post_description,
+          image: picture
         },
         size: { width: 650, height: 570 }
       }
@@ -70,14 +79,17 @@ function PopupCenter(url, title, w, h) {
   var dualScreenLeft = window.screenLeft != undefined ? window.screenLeft : screen.left;
   var dualScreenTop = window.screenTop != undefined ? window.screenTop : screen.top;
 
-  var width = window.innerWidth ? window.innerWidth : document.documentElement.clientWidth ? 
+  var width = window.innerWidth ? window.innerWidth : 
+    document.documentElement.clientWidth ? 
     document.documentElement.clientWidth : screen.width;
-  var height = window.innerHeight ? window.innerHeight : document.documentElement.clientHeight ? 
+  var height = window.innerHeight ? window.innerHeight : 
+    document.documentElement.clientHeight ? 
     document.documentElement.clientHeight : screen.height;
 
   var left = ((width / 2) - (w / 2)) + dualScreenLeft;
   var top = ((height / 2) - (h / 2)) + dualScreenTop;
-  var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + ', height=' + h + 
+  var newWindow = window.open(url, title, 'scrollbars=yes, width=' + w + 
+    ', height=' + h + 
     ', top=' + top + ', left=' + left);
 
   // Puts focus on the newWindow
