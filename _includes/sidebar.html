@@ -36,6 +36,9 @@
 
     {% for cat in site.data.categories %}
       <li><a href="/categories/{{ cat.name }}/">#{{ cat.title }}</a></li>
+      {% for subcat in cat.subs %}
+        <li>— <a href="/categories/{{ subcat.name }}/">#{{ subcat.title }}</a></li>
+      {% endfor %}
     {% endfor %}
   </ol>
 </div>

@@ -1,15 +1,30 @@
 - 
   name: awareness
   title: Личная эффективность
+  subs:
+    - 
+      name: show
+      title: ШоуВоробьёва
+    - 
+      name: podster
+      title: Шоу ПроРеальность
 - 
   name: business
   title: Бизнес
 - 
   name: dating
   title: Знакомства
+  subs:
+    - 
+      name: shkola-soblazna
+      title: Школа Соблазна
 - 
   name: health
   title: Здоровье
 - 
   name: relationships
   title: Отношения
+  subs:
+    - 
+      name: proluboff
+      title: Шоу ПроЛюбoff

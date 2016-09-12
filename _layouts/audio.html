@@ -2,7 +2,11 @@
 layout: post
 ---
 
-{% capture href %}https://raw.githubusercontent.com/prorealnost/audio/gh-pages/public/{{ page.project }}/{{ page.slug }}.mp3{% endcapture %}
+{% if page.src %}
+  {% assign href = page.src %}
+{% else %}
+  {% capture href %}https://raw.githubusercontent.com/prorealnost/audio/gh-pages/public/{{ page.project }}/{{ page.slug }}.mp3{% endcapture %}
+{% endif %}
 
 <div id="jquery_jplayer_audio_1" class="jplayer" mp3="{{ href }}" title="{{ page.title }}"></div>
 <div id="demo" class="audio">
