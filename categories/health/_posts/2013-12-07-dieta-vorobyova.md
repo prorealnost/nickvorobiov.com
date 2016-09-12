@@ -1,5 +1,6 @@
 ---
 date: 07.12.2013
+layout: post
 vk_id: 2199
 title: Диета Воробьёва
 ---

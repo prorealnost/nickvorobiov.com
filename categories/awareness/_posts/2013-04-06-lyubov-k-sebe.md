@@ -1,5 +1,6 @@
 ---
 date: 06.04.2013
+layout: post
 vk_id: 1995
 title: Любовь к себе
 ---

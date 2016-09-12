@@ -1,5 +1,6 @@
 ---
 date: 24.11.2013
+layout: post
 vk_id: 2178
 title: Новая Любовь и бабочки
 picture: novaya-lyubov-i-babochki.jpg

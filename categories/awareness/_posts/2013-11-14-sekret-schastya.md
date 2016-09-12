@@ -1,5 +1,6 @@
 ---
 date: 14.11.2013
+layout: post
 vk_id: 2160
 title: Секрет счастья
 ---

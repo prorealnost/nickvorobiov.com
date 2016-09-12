@@ -1,5 +1,6 @@
 ---
 date: 15.03.2014
+layout: post
 vk_id: 2311
 title: Ты не виноват
 ---

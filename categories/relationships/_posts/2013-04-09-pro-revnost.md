@@ -1,5 +1,6 @@
 ---
 date: 09.04.2013
+layout: post
 vk_id: 1999
 title: Про ревность
 ---

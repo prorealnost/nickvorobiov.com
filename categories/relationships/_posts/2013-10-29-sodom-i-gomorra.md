@@ -1,5 +1,6 @@
 ---
 date: 29.10.2013
+layout: post
 vk_id: 2125
 title: Содом и гоморра
 ---

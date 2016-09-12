@@ -1,5 +1,6 @@
 ---
 date: 19.04.2013
+layout: post
 vk_id: 2012
 title: Новая любовь
 ---

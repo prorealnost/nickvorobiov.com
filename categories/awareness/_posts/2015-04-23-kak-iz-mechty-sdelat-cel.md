@@ -1,5 +1,6 @@
 ---
 date: 23.04.2015
+layout: post
 vk_id: 2523
 title: Как из мечты сделать цель
 picture: kak-iz-mechty-sdelat-cel.jpg

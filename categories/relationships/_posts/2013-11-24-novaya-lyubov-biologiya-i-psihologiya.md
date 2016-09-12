@@ -1,5 +1,6 @@
 ---
 date: 24.11.2013
+layout: post
 vk_id: 2180
 title: Новая любовь, биология и психология
 picture: novaya-lyubov-biologiya-i-psihologiya.jpg

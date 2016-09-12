@@ -1,5 +1,6 @@
 ---
 date: 13.10.2015
+layout: post
 vk_id: 2617
 title: Как измерять прогресс красоты тела
 picture: kak-izmeryat-progress-krasoty-tela.jpg

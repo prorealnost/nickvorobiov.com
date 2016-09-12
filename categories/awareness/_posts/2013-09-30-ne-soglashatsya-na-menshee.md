@@ -1,5 +1,6 @@
 ---
 date: 30.09.2013
+layout: post
 vk_id: 2076
 title: Не соглашаться на меньшее
 description: Главный секрет успеха
