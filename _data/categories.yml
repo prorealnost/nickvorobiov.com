@@ -4,9 +4,11 @@
   subs:
     - 
       name: show
+      link: /vorobiov-show/
       title: ШоуВоробьёва
     - 
       name: podster
+      link: /prorealnost-show/
       title: Шоу ПроРеальность
 - 
   name: business
@@ -17,6 +19,7 @@
   subs:
     - 
       name: shkola-soblazna
+      link: /shkola-soblazna/
       title: Школа Соблазна
 - 
   name: health
@@ -27,4 +30,5 @@
   subs:
     - 
       name: proluboff
+      link: /proluboff/
       title: Шоу ПроЛюбoff

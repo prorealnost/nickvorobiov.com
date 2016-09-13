@@ -37,7 +37,8 @@
     {% for cat in site.data.categories %}
       <li><a href="/categories/{{ cat.name }}/">#{{ cat.title }}</a></li>
       {% for subcat in cat.subs %}
-        <li>— <a href="/categories/{{ subcat.name }}/">#{{ subcat.title }}</a></li>
+        {% capture link %}{% if subcat.link %}{{ subcat.link }}{% else %}/categories/{{ subcat.name }}/{% endif %}{% endcapture %}
+        <li>— <a href="{{ link }}">#{{ subcat.title }}</a></li>
       {% endfor %}
     {% endfor %}
   </ol>
