@@ -12,14 +12,12 @@
 
 Тренер и ведущий проекта — Николай Воробьёв
 
-- [1 серия](/proluboff-1)
-- [2 серия](/proluboff-2)
-- [3 серия](/proluboff-3)
-- [4 серия](/proluboff-4)
-- [5 серия](/proluboff-5)
-- [6 серия](/proluboff-6)
-- [7 серия](/proluboff-7)
-- [8 серия](/proluboff-8)
-- [9 серия](/proluboff-9)
-- [10 серия](/proluboff-10)
-- [11 серия](/proluboff-11)
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+    {% for post in site.categories.proluboff reversed %}
+      <li {% if post.episode == page.episode %} class="active" {% endif %}>
+        <a href="/proluboff-{{ post.episode }}">{{ post.episode }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>
