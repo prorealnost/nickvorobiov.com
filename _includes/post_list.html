@@ -41,7 +41,7 @@
         <a class="btn btn-default" href="{{ post.url }}">
           {% if post.categories contains 'audio' %}
             Слушать
-          {% elsif post.categories contains 'video' %}
+          {% elsif post.categories contains 'video' or post.categories contains 'show' %}
             Смотреть
           {% else %}
             Читать

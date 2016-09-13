@@ -7,13 +7,13 @@ layout: default
     {% assign cat_name = cat.name %}
     {% assign cat_title = '#' | append: cat.title %}
   {% endif %}
+{% endfor %}
 
-  {% for subcat in cat.subs %}
-    {% if subcat.name == page.category %}
-      {% assign cat_name = subcat.name %}
-      {% assign cat_title = '#' | append: subcat.title %}
-    {% endif %}
-  {% endfor %}
+{% for cat in site.data.shows %}
+  {% if cat.name == page.category %}
+    {% assign cat_name = cat.name %}
+    {% assign cat_title = '#' | append: cat.title %}
+  {% endif %}
 {% endfor %}
 
 <div class="container">

@@ -1,15 +1,6 @@
 - 
   name: awareness
   title: Личная эффективность
-  subs:
-    - 
-      name: show
-      link: /vorobiov-show/
-      title: ШоуВоробьёва
-    - 
-      name: podster
-      link: /prorealnost-show/
-      title: Шоу ПроРеальность
 - 
   name: business
   title: Бизнес
@@ -17,10 +8,6 @@
   name: dating
   title: Знакомства
   subs:
-    - 
-      name: shkola-soblazna
-      link: /shkola-soblazna/
-      title: Школа Соблазна
 - 
   name: health
   title: Здоровье
@@ -28,7 +15,3 @@
   name: relationships
   title: Отношения
   subs:
-    - 
-      name: proluboff
-      link: /proluboff/
-      title: Шоу ПроЛюбoff

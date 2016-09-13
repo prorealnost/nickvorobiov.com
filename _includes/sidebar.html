@@ -36,10 +36,16 @@
 
     {% for cat in site.data.categories %}
       <li><a href="/categories/{{ cat.name }}/">#{{ cat.title }}</a></li>
-      {% for subcat in cat.subs %}
-        {% capture link %}{% if subcat.link %}{{ subcat.link }}{% else %}/categories/{{ subcat.name }}/{% endif %}{% endcapture %}
-        <li>— <a href="{{ link }}">#{{ subcat.title }}</a></li>
-      {% endfor %}
+    {% endfor %}
+  </ol>
+</div>
+
+<div class="sidebar--module">
+  <h4>Шоу</h4>
+  <ol class="list-unstyled">
+
+    {% for show in site.data.shows %}
+      <li><a href="/{{ show.name }}/">#{{ show.title }}</a></li>
     {% endfor %}
   </ol>
 </div>
