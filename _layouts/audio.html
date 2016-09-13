@@ -8,7 +8,6 @@ layout: post
   {% capture href %}https://raw.githubusercontent.com/prorealnost/audio/gh-pages/public/{{ page.project }}/{{ page.slug }}.mp3{% endcapture %}
 {% endif %}
 
-<div id="jquery_jplayer_audio_1" class="jplayer" mp3="{{ href }}" title="{{ page.title }}"></div>
 <div id="demo" class="audio">
   <div class="play-control control">
     <a class="play button"></a>
@@ -23,6 +22,7 @@ layout: post
   </div>
   <div class="no-solution">Media Player Error<br>Update your browser or Flash plugin</div>
 </div>
+<div id="jquery_jplayer_audio_1" class="jplayer" mp3="{{ href }}" title="{{ page.title }}"></div>
 
 <script type="text/javascript" src="/js/jplayer/jplayer/fuckup.js"></script>
 

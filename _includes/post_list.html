@@ -40,11 +40,11 @@
       <p class="lead">
         <a class="btn btn-default" href="{{ post.url }}">
           {% if post.categories contains 'audio' %}
-            Слушать аудио
-          {% elsif post.categories contains 'show' %}
-            Смотреть видео
+            Слушать
+          {% elsif post.categories contains 'video' %}
+            Смотреть
           {% else %}
-            Читать статью
+            Читать
           {% endif %}
           <i class="fa fa-arrow-right"></i>
         </a>
