@@ -1,0 +1,47 @@
+.book {
+  .section {
+    min-width: 450px;
+  }
+
+  &--jumbo {
+    margin-top: -30px;
+    &--picture {
+      background-color: #fff;
+      border: 4px solid #fff;
+    }
+  }
+
+  &--toc, &--order {
+    margin-top: 40px;
+  }
+
+  &--toc-items {
+    padding: 40px;
+
+    @media (min-width: $screen-sm-min) {
+      -webkit-column-count: 2; /* Chrome, Safari, Opera */
+      -moz-column-count: 2; /* Firefox */
+      column-count: 2;
+    }
+
+    @media (min-width: $screen-md-min) {
+      padding: 60px;
+      -webkit-column-count: 3; /* Chrome, Safari, Opera */
+      -moz-column-count: 3; /* Firefox */
+      column-count: 3;
+    }
+
+    margin-top: 20px;
+    border: 1px solid #eeeeee;
+
+    h4 {
+      margin-top: 1em;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    p,ul {
+      margin-bottom: 0.3em;
+    }
+  }
+}

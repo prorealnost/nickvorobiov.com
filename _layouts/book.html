@@ -1,0 +1,82 @@
+---
+layout: default
+dict:
+  part1: '%D0%9A%D0%BD%D0%B8%D0%B3%D0%B0%20%C2%AB'
+  part2ru: '%C2%BB%20%D1%81%20%D0%BF%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%BF%D0%BE%20%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D0%B8'
+  part2world: '%C2%BB%20%D1%81%20%D0%BF%D0%BE%D1%87%D1%82%D0%BE%D0%B2%D0%BE%D0%B9%20%D0%B4%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%BA%D0%BE%D0%B9%20%D0%B2%20%D0%B4%D1%80%D1%83%D0%B3%D0%B8%D0%B5%20%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%8B'
+  lsbd: '%D0%9B%D1%91%D0%B3%D0%BA%D0%B8%D0%B9%20%D1%81%D0%BF%D0%BE%D1%81%D0%BE%D0%B1'
+  ksbu: '%D0%9A%D0%B0%D0%BA%20%D1%81%D1%82%D0%B0%D1%82%D1%8C%20%D0%B1%D0%BE%D0%B3%D0%B0%D1%82%D1%8B%D0%BC'
+  reallove: '%D0%A0%D0%B5%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F%20%D0%BB%D1%8E%D0%B1%D0%BE%D0%B2%D1%8C'
+---
+
+<div class="container book--header">
+  {% include header.html title=page.title subtitle="Книга Николая Воробьёва" %}
+</div>
+
+<div class="section book--jumbo">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-8 col-xs-offset-1 col-sm-4 col-sm-offset-0">
+        <img class="book--photo img-responsive" src="/images/book/{{ page.picture }}" />
+      </div>
+      <div class="col-xs-12 col-sm-8">
+        {{ page.annotation | markdownify }}
+
+        <h4>О чём эта книга:</h4>
+        <ul>
+          {% for item in page.about %}
+            <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+
+        <p>
+          <a class="btn btn-primary btn-lg smooth-scroll" href="#order">Купить за 500 р</a>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="section book--toc">
+  <div class="container">
+    <h1>Оглавление</h1>
+    <div class="book--toc-items">
+      {% for chapter in page.contents %}
+        <h4>{{ chapter.title }}</h4>
+        {% for article in chapter.items %}
+          <p>{{ article.title }}
+            {% if article.items %}
+              <ul>
+                {% for article in chapter.items %}
+                  <li>{{ article.title }}</li>
+                {% endfor %}
+              </ul>
+            {% endif %}
+          </p>
+        {% endfor %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<div class="section book--order" id="order">
+  <div class="container">
+    <h1>Заказ, оплата и доставка</h1>
+
+    <p>Цена книги — 500 рублей. Цена доставки почтой по России — 150 рублей, в другие страны — 500 рублей</p>
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>По России</h3>
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ layout.dict.part1 }}{{ layout.dict[page.slug] }}{{ layout.dict.part2ru }}&targets-hint=&default-sum=650&button-text=02&fio=on&mail=on&phone=on&address=on&successURL=http%3A%2F%2Fnickvorobiov.com%2Fbook-thankyou%2F" width="450" height="213"></iframe>
+      </div>
+      <div class="col-sm-6">
+        <h3>В другие страны</h3>
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ layout.dict.part1 }}{{ layout.dict[page.slug] }}{{ layout.dict.part2world }}&targets-hint=&default-sum=1000&button-text=02&fio=on&mail=on&phone=on&address=on&successURL=http%3A%2F%2Fnickvorobiov.com%2Fbook-thankyou%2F" width="450" height="213"></iframe>
+      </div>
+    </div>
+    <p></p>
+    <p>Книга отправляется бандеролью и приходит обычно за 7-10 дней.</p>
+    <p>Ход доставки можно отслеживать по номеру почтового отправления на сайте почты.</p>
+    <p>Вопросы по доставке и оплате можно задать лично Николаю <a href="https://vk.com/nickvorobiov" target="_blank">https://vk.com/nickvorobiov</a> или <a href="https://www.facebook.com/nickvorobiov" target="_blank">https://www.facebook.com/nickvorobiov</a>.</p>
+  </div>
+</div>

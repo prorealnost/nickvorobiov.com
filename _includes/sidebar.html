@@ -50,6 +50,15 @@
   </ol>
 </div>
 
+<div class="sidebar--module">
+  <h4>Книги</h4>
+  <ol class="list-unstyled">
+
+    {% for book in site.data.books %}
+      <li><a href="/book/{{ book.name }}/">{{ book.title }}</a></li>
+    {% endfor %}
+  </ol>
+</div>
 
 {% comment %}
 <div class="sidebar--module sidebar--module-inset">

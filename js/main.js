@@ -97,3 +97,12 @@ function PopupCenter(url, title, w, h) {
     newWindow.focus();
   }
 }
+
+// Smooth scroll
+
+$(document).on('click', '.smooth-scroll', function(e){
+  e.preventDefault();
+  var href = $(this).attr("href");
+  var offsetTop = href === "#" ? 0 : $(href).offset().top - 100;
+  $('html, body').stop().animate({ scrollTop: offsetTop}, 700);
+});
