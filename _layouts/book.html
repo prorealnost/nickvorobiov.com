@@ -10,14 +10,14 @@ dict:
 ---
 
 <div class="container book--header">
-  {% include header.html title=page.title subtitle="Книга Николая Воробьёва" %}
+  {% include header.html title=page.title subtitle=page.subtitle %}
 </div>
 
 <div class="section book--jumbo">
   <div class="container">
     <div class="row">
       <div class="col-xs-8 col-xs-offset-1 col-sm-4 col-sm-offset-0">
-        <img class="book--photo img-responsive" src="/images/book/{{ page.picture }}" />
+        <img class="book--photo img-responsive" src="{{ site.post_pictures }}{{ page.picture }}" />
       </div>
       <div class="col-xs-12 col-sm-8">
         {{ page.annotation | markdownify }}
@@ -30,7 +30,7 @@ dict:
         </ul>
 
         <p>
-          <a class="btn btn-primary btn-lg smooth-scroll" href="#order">Купить за 500 р</a>
+          <a class="btn btn-primary btn-lg smooth-scroll" href="#order">Купить за 499 р</a>
         </p>
       </div>
     </div>
@@ -63,15 +63,15 @@ dict:
   <div class="container">
     <h1>Заказ, оплата и доставка</h1>
 
-    <p>Цена книги — 500 рублей. Цена доставки почтой по России — 150 рублей, в другие страны — 500 рублей</p>
+    <p>Цена книги — 499 рублей. Цена доставки почтой по России — 149 рублей, в другие страны — 499 рублей</p>
     <div class="row">
       <div class="col-sm-6">
         <h3>По России</h3>
-        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ layout.dict.part1 }}{{ layout.dict[page.slug] }}{{ layout.dict.part2ru }}&targets-hint=&default-sum=650&button-text=02&fio=on&mail=on&phone=on&address=on&successURL=http%3A%2F%2Fnickvorobiov.com%2Fbook-thankyou%2F" width="450" height="213"></iframe>
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ layout.dict.part1 }}{{ layout.dict[page.slug] }}{{ layout.dict.part2ru }}&targets-hint=&default-sum=648&button-text=02&fio=on&mail=on&phone=on&address=on&successURL=http%3A%2F%2Fnickvorobiov.com%2Fbook-thankyou%2F" width="450" height="213"></iframe>
       </div>
       <div class="col-sm-6">
         <h3>В другие страны</h3>
-        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ layout.dict.part1 }}{{ layout.dict[page.slug] }}{{ layout.dict.part2world }}&targets-hint=&default-sum=1000&button-text=02&fio=on&mail=on&phone=on&address=on&successURL=http%3A%2F%2Fnickvorobiov.com%2Fbook-thankyou%2F" width="450" height="213"></iframe>
+        <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ layout.dict.part1 }}{{ layout.dict[page.slug] }}{{ layout.dict.part2world }}&targets-hint=&default-sum=998&button-text=02&fio=on&mail=on&phone=on&address=on&successURL=http%3A%2F%2Fnickvorobiov.com%2Fbook-thankyou%2F" width="450" height="213"></iframe>
       </div>
     </div>
     <p></p>

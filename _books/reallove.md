@@ -1,6 +1,7 @@
 ---
-layout: book
 title: Реальная любовь
+category: Отношения
+orderindex: 2
 picture: reallove.jpg
 slug: reallove
 annotation:

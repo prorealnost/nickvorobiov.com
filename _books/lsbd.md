@@ -1,6 +1,7 @@
 ---
-layout: book
 title: Лёгкий способ бросить дрочить
+category: Знакомства
+orderindex: 3
 picture: lsbd.jpg
 slug: lsbd
 annotation: |

@@ -1,6 +1,7 @@
 ---
-layout: book
 title: Как стать богатым и успешным
+category: Личная эффективность
+orderindex: 1
 picture: ksbu.jpg
 slug: ksbu
 annotation: |

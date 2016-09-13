@@ -23,3 +23,16 @@ paginate: 20
 fb_app_id: 255302648202942
 post_pictures: /images/post/
 array: []
+
+collections:
+  books:
+    output: true
+    permalink: /book/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: books
+    values:
+      layout: book
+      subtitle: Книга Николая Воробьёва
