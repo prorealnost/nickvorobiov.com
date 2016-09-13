@@ -21,6 +21,9 @@ gems: [jekyll-paginate]
 paginate: 20
 
 fb_app_id: 255302648202942
+vk_app_id: 5628006
+#vk_app_id: 4569992 # 127.0.0.1
+
 post_pictures: /images/post/
 array: []
 
