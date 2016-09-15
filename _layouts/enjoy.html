@@ -1,0 +1,32 @@
+---
+layout: default
+---
+
+<div class="container">
+  {% include header.html title=page.title subtitle=''%}
+  <div class="row">
+    <div class="col-md-8 main">
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/{{ page.video }}?rel=0" frameborder="0" allowfullscreen></iframe>
+      </div>
+
+      <p></p>
+      {{ content }}
+    </div>
+    <div class="col-md-3 col-md-offset-1 sidebar">
+      {% if page.episode %}
+        {% assign baseurl = '.' %}
+        {% if page.episode > 1 %}
+          {% assign baseurl = '..' %}
+        {% endif %}
+
+        <div class="list-group">
+          <a class="list-group-item {% if page.episode == 1 %}active{% endif %}" href="{{ baseurl }}/">Урок 1</a>
+          {% for i in (2..page.total) %}
+            <a class="list-group-item {% if page.episode == i %}active{% endif %}" href="{{ baseurl }}/{{i}}">Урок {{i}}</a>
+          {% endfor %}
+        </div>
+      {% endif %}
+    </div>
+  </div>
+</div>
