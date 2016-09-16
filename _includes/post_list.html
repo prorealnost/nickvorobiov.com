@@ -43,6 +43,8 @@
             Слушать
           {% elsif post.categories contains 'video' or post.categories contains 'show' or post.categories contains 'webinar' %}
             Смотреть
+          {% elsif post.categories contains 'club' %}
+            Подробнее
           {% else %}
             Читать
           {% endif %}

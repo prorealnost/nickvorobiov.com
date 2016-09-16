@@ -39,3 +39,8 @@ defaults:
     values:
       layout: book
       subtitle: Книга Николая Воробьёва
+  - scope:
+      path: "club"
+      type: posts
+    values:
+      layout: club
