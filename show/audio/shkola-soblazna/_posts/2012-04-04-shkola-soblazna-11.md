@@ -3,7 +3,7 @@ layout: audio
 title: Владислав Цыплухин в «Школе Соблазна»
 description: Сегодняшний выпуск пройдет в экспериментальном фомате.
 subtitle: Школа Соблазна, выпуск 11
-picture: shkola-soblazna-11.jpg
+picture: shkola-soblazna/11.jpg
 src: http://shkola-soblazna.podster.fm/11/download/audio.mp3?media=player
 ---
 

@@ -2,7 +2,7 @@
 layout: audio
 title: Неограниченные отношения vol.3
 subtitle: Школа Соблазна, выпуск 67
-picture: shkola-soblazna-67.jpg
+picture: shkola-soblazna/67.jpg
 src: http://shkola-soblazna.podster.fm/67/download/audio.mp3?media=player
 ---
 — Тотальная любовь — подводим итоги.  

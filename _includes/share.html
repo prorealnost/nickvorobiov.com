@@ -1,11 +1,12 @@
+{% capture picture %}{{ site.url }}{% if include.page.exportlogo %}{{ site.post_pictures }}{{ include.page.exportlogo }}{% elsif include.page.picture %}{{ site.post_pictures }}{{ include.page.picture }}{% else %}{{ site.export_logo }}{% endif %}{% endcapture %}
 <div class="share row">
   <div class="col-xs-4">
-    <a href="#" data-permalink="{{ include.url }}" data-picture="{{ include.picture }}" data-title="{{ include.title }}" data-subtitle="{{ include.subtitle }}" data-description="{{ include.description }}" data-platform="facebook" class="btn btn-block btn-share btn-share-fb" title="Поделиться в Фейсбуке"><i class="fa fa-facebook"></i></a>
+    <a href="#" data-permalink="{{ include.page.url }}" data-picture="{{ picture }}" data-title="{{ include.page.title }}" data-subtitle="{{ include.page.subtitle }}" data-description="{{ include.page.description }}" data-platform="facebook" class="btn btn-block btn-share btn-share-fb" title="Поделиться в Фейсбуке"><i class="fa fa-facebook"></i></a>
   </div>
   <div class="col-xs-4">
-    <a href="#" data-permalink="{{ include.url }}" data-picture="{{ include.picture }}" data-title="{{ include.title }}" data-subtitle="{{ include.subtitle }}" data-description="{{ include.description }}" data-platform="twitter" class="btn btn-block btn-share btn-share-tw" title="Твитнуть"><i class="fa fa-twitter"></i></a>
+    <a href="#" data-permalink="{{ include.page.url }}" data-picture="{{ picture }}" data-title="{{ include.page.title }}" data-subtitle="{{ include.page.subtitle }}" data-description="{{ include.page.description }}" data-platform="twitter" class="btn btn-block btn-share btn-share-tw" title="Твитнуть"><i class="fa fa-twitter"></i></a>
   </div>
   <div class="col-xs-4">
-    <a href="#" data-permalink="{{ include.url }}" data-picture="{{ include.picture }}" data-title="{{ include.title }}" data-subtitle="{{ include.subtitle }}" data-description="{{ include.description }}" data-platform="vk" class="btn btn-block btn-share btn-share-vk" title="Поделиться ВКонтакте"><i class="fa fa-vk"></i></a>
+    <a href="#" data-permalink="{{ include.page.url }}" data-picture="{{ picture }}" data-title="{{ include.page.title }}" data-subtitle="{{ include.page.subtitle }}" data-description="{{ include.page.description }}" data-platform="vk" class="btn btn-block btn-share btn-share-vk" title="Поделиться ВКонтакте"><i class="fa fa-vk"></i></a>
   </div>
 </div>

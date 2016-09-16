@@ -3,7 +3,7 @@ layout: audio
 title: Женская инициатива
 description: Снижает ли инициатива со стороны женщины ее уровень в глазах мужчины?
 subtitle: Школа Соблазна, выпуск 19
-picture: shkola-soblazna-19.jpg
+picture: shkola-soblazna/19.jpg
 src: http://shkola-soblazna.podster.fm/19/download/audio.mp3?media=player
 ---
 

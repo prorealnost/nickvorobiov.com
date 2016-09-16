@@ -3,7 +3,7 @@ layout: audio
 title: Как найти повод для встречи?
 description: Вы созвонились с девушкой, она взяла трубку, барьер преодолен. Дальше вам надо встретиться...
 subtitle: Школа Соблазна, выпуск 5
-picture: shkola-soblazna-5.jpg
+picture: shkola-soblazna/5.jpg
 src: http://shkola-soblazna.podster.fm/5/download/audio.mp3?media=player
 ---
 

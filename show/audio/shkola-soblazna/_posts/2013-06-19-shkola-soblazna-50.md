@@ -3,7 +3,7 @@ layout: audio
 title: Как перевести отношения на новый уровень?
 description: В юбилейном 50-м выпуске ведущие говорят о том, как перевести отношения на новый уровень, и нужно ли это делать.
 subtitle: Школа Соблазна, выпуск 50
-picture: shkola-soblazna-50.jpg
+picture: shkola-soblazna/50.jpg
 src: http://shkola-soblazna.podster.fm/50/download/audio.mp3?media=player
 ---
 

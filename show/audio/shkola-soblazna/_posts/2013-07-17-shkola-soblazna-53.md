@@ -3,7 +3,7 @@ layout: audio
 title: В гостях Андрей Резников
 description: Генеральный продюсер радиостанции &quot;Рекорд&quot;.
 subtitle: Школа Соблазна, выпуск 53
-picture: shkola-soblazna-53.jpg
+picture: shkola-soblazna/53.jpg
 src: http://shkola-soblazna.podster.fm/53/download/audio.mp3?media=player
 ---
 

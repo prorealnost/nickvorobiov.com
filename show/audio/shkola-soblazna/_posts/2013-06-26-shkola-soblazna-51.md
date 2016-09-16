@@ -3,7 +3,7 @@ layout: audio
 title: Зачем нужны отношения?
 description: В сегодняшнем выпуске Дарья Герман и Николай Воробьев говорят о пользе и вреде отношений.
 subtitle: Школа Соблазна, выпуск 51
-picture: shkola-soblazna-51.jpg
+picture: shkola-soblazna/51.jpg
 src: http://shkola-soblazna.podster.fm/51/download/audio.mp3?media=player
 ---
 

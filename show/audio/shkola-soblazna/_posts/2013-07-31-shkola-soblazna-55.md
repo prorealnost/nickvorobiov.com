@@ -3,7 +3,7 @@ layout: audio
 title: Что делать, если девушка успешнее мужчины?
 description: Ведущие рассуждают о том, как влияет на отношения тот факт, что девушка успешнее мужчины.
 subtitle: Школа Соблазна, выпуск 55
-picture: shkola-soblazna-55.jpg
+picture: shkola-soblazna/55.jpg
 src: http://shkola-soblazna.podster.fm/55/download/audio.mp3?media=player
 ---
 

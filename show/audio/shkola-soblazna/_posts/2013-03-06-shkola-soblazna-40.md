@@ -3,7 +3,7 @@ layout: audio
 title: Муж — друг или любовник?  
 description: В жарких спорах истину выясняют ведущие «Школы соблазна» Дарья Герман и Николай Воробьёв.
 subtitle: Школа Соблазна, выпуск 40
-picture: shkola-soblazna-40.jpg
+picture: shkola-soblazna/40.jpg
 src: http://shkola-soblazna.podster.fm/40/download/audio.mp3?media=player
 ---
 

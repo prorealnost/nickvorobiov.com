@@ -3,7 +3,7 @@ layout: audio
 title: Есть ли средства от мужской полигамности?
 description: Миф ли это, что мужчине кроме любимой нужен кто-то еще?
 subtitle: Школа Соблазна, выпуск 26
-picture: shkola-soblazna-26.jpg
+picture: shkola-soblazna/26.jpg
 src: http://shkola-soblazna.podster.fm/26/download/audio.mp3?media=player
 ---
 

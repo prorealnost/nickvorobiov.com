@@ -3,7 +3,7 @@ layout: audio
 title: Как девушке женить на себе своего мужчину
 description: Ведущие спорят на актуальную тему.
 subtitle: Школа Соблазна, выпуск 54
-picture: shkola-soblazna-54.jpg
+picture: shkola-soblazna/54.jpg
 src: http://shkola-soblazna.podster.fm/54/download/audio.mp3?media=player
 ---
 

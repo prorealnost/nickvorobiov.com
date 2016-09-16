@@ -3,7 +3,7 @@ layout: audio
 title: Излишний контроль в отношениях
 description: К чему приводит навязчивое любопытство?
 subtitle: Школа Соблазна, выпуск 22
-picture: shkola-soblazna-22.jpg
+picture: shkola-soblazna/22.jpg
 src: http://shkola-soblazna.podster.fm/22/download/audio.mp3?media=player
 ---
 

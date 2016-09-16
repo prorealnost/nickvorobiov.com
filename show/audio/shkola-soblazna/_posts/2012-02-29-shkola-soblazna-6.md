@@ -3,7 +3,7 @@ layout: audio
 title: Как оставить правильное впечатление?
 description: Как не превратить свидание в цирк и не сделать его последним.
 subtitle: Школа Соблазна, выпуск 6
-picture: shkola-soblazna-6.jpg
+picture: shkola-soblazna/6.jpg
 src: http://shkola-soblazna.podster.fm/6/download/audio.mp3?media=player
 ---
 

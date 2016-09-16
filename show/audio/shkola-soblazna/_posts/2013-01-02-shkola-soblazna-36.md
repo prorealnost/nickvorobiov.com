@@ -3,7 +3,7 @@ layout: audio
 title: В гостях Alexey Romeo
 description: В гостях у «Школы Соблазна» один из самых известных и креативных диджеев, входящий в тройку лучших DJs России.
 subtitle: Школа Соблазна, выпуск 36
-picture: shkola-soblazna-36.jpg
+picture: shkola-soblazna/36.jpg
 src: http://shkola-soblazna.podster.fm/36/download/audio.mp3?media=player
 ---
 

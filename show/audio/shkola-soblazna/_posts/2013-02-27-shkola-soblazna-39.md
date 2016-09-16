@@ -3,7 +3,7 @@ layout: audio
 title: Как оживить отношения
 description: Об этом в новом выпуске «Школы соблазна» рассуждают наши эксперты в области отношений Дарья Герман и Николай Воробьёв.
 subtitle: Школа Соблазна, выпуск 39
-picture: shkola-soblazna-39.jpg
+picture: shkola-soblazna/39.jpg
 src: http://shkola-soblazna.podster.fm/39/download/audio.mp3?media=player
 ---
 

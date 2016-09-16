@@ -3,7 +3,7 @@ layout: audio
 title: Как правильно делать комплименты?
 description: Женщины комплименты любят, а мужчины от них просто... тают!
 subtitle: Школа Соблазна, выпуск 7
-picture: shkola-soblazna-7.jpg
+picture: shkola-soblazna/7.jpg
 src: http://shkola-soblazna.podster.fm/7/download/audio.mp3?media=player
 ---
 

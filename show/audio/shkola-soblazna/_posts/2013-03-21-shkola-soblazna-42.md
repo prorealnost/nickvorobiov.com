@@ -3,7 +3,7 @@ layout: audio
 title: В гостях Стёпа Марсель
 description: Сегодня у Дарьи Герман и Николая Воробьёва специальный гость — Стёпа Марсель, солист группы Марсель.  
 subtitle: Школа Соблазна, выпуск 42
-picture: shkola-soblazna-42.jpg
+picture: shkola-soblazna/42.jpg
 src: http://shkola-soblazna.podster.fm/42/download/audio.mp3?media=player
 ---
 

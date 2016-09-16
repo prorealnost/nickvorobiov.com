@@ -3,7 +3,7 @@ layout: audio
 title: Как преодолеть волнение перед красивой девушкой?
 description: Парни ошибочно считают, что волнение — это плохо!  
 subtitle: Школа Соблазна, выпуск 10
-picture: shkola-soblazna-10.jpg
+picture: shkola-soblazna/10.jpg
 src: http://shkola-soblazna.podster.fm/10/download/audio.mp3?media=player
 ---
 

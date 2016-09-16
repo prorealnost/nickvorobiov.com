@@ -3,7 +3,7 @@ layout: audio
 title: Как вернуть парня
 description: Даша Герман и Николай Воробьев рассуждают на волнующую многих тему.
 subtitle: Школа Соблазна, выпуск 62
-picture: shkola-soblazna-62.jpg
+picture: shkola-soblazna/62.jpg
 src: http://shkola-soblazna.podster.fm/62/download/audio.mp3?media=player
 ---
 

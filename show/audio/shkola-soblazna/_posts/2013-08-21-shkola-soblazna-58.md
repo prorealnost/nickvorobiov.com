@@ -3,7 +3,7 @@ layout: audio
 title: Как девушки дрессируют мужчин?
 description: В сегодняшнем выпуске Дарья Герман и Николай Воробьев рассуждают на волнующую многих тему.
 subtitle: Школа Соблазна, выпуск 58
-picture: shkola-soblazna-58.jpg
+picture: shkola-soblazna/58.jpg
 src: http://shkola-soblazna.podster.fm/58/download/audio.mp3?media=player
 ---
 

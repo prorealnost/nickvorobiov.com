@@ -3,7 +3,7 @@ layout: audio
 title: Что делать, если девушка встречается не только с тобой?
 description: Обсуждаем в сегодняшнем выпуске «Школы Соблазна».
 subtitle: Школа Соблазна, выпуск 18
-picture: shkola-soblazna-18.jpg
+picture: shkola-soblazna/18.jpg
 src: http://shkola-soblazna.podster.fm/18/download/audio.mp3?media=player
 ---
 

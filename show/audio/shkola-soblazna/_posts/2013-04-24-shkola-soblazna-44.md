@@ -3,7 +3,7 @@ layout: audio
 title: Несвободная свобода
 description: Дарья Герман и Николай Воробьев о свободе, запретах и честных отношениях в новом выпуске подкаста «Школа соблазна».
 subtitle: Школа Соблазна, выпуск 44
-picture: shkola-soblazna-44.jpg
+picture: shkola-soblazna/44.jpg
 src: http://shkola-soblazna.podster.fm/44/download/audio.mp3?media=player
 ---
 

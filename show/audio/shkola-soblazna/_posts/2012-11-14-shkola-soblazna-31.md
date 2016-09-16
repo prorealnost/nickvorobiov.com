@@ -3,7 +3,7 @@ layout: audio
 title: О женской роли в отношениях
 description: Женщины считают правильным, когда мужчины их добиваются, и не понимают, как себя вести, если  происходит наоборот. А что думают по этому поводу мужчины?
 subtitle: Школа Соблазна, выпуск 31
-picture: shkola-soblazna-31.jpg
+picture: shkola-soblazna/31.jpg
 src: http://shkola-soblazna.podster.fm/31/download/audio.mp3?media=player
 ---
 

@@ -3,7 +3,7 @@ layout: audio
 title: Реально ли познакомиться в соцсети?
 description: Николай Воробьев и Дарья Герман говорят о знакомствах через соцсети и о том, реальны ли настоящие, крепкие отношения в данном случае.
 subtitle: Школа Соблазна, выпуск 45
-picture: shkola-soblazna-45.jpg
+picture: shkola-soblazna/45.jpg
 src: http://shkola-soblazna.podster.fm/45/download/audio.mp3?media=player
 ---
 

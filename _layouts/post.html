@@ -19,7 +19,7 @@ layout: default
         {{ content }}
       </div>
 
-      {% include share.html url=page.url picture=page.picture title=page.title subtitle=page.subtitle description=page.description %}
+      {% include share.html page=page %}
 
       {% include comments.html %}
     </div>

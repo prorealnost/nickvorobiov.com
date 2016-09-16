@@ -3,7 +3,7 @@ layout: audio
 title: Новый стандарт отношений
 description: О новом стандарте отношений, женских ожиданиях и мужской заботе — в новом выпуске подкаста «Школа соблазна».  
 subtitle: Школа Соблазна, выпуск 46
-picture: shkola-soblazna-46.jpg
+picture: shkola-soblazna/46.jpg
 src: http://shkola-soblazna.podster.fm/46/download/audio.mp3?media=player
 ---
 

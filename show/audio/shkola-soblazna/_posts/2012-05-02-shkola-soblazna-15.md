@@ -3,7 +3,7 @@ layout: audio
 title: Как она на самом деле к тебе относится?
 description: Это важно знать и чувствовать, т.к. пустые надежды и непонимание несомненно приведут отношения в тупик.
 subtitle: Школа Соблазна, выпуск 15
-picture: shkola-soblazna-15.jpg
+picture: shkola-soblazna/15.jpg
 src: http://shkola-soblazna.podster.fm/15/download/audio.mp3?media=player
 ---
 

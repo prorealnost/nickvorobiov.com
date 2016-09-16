@@ -3,7 +3,7 @@ layout: audio
 title: Признаваться в измене или нет?
 description: Дарья Герман и Николай Воробьёв о том, что считать изменой, как к ней относиться и стоит ли её скрывать.
 subtitle: Школа Соблазна, выпуск 38
-picture: shkola-soblazna-38.jpg
+picture: shkola-soblazna/38.jpg
 src: http://shkola-soblazna.podster.fm/38/download/audio.mp3?media=player
 ---
 

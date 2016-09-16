@@ -6,9 +6,7 @@ function share($btn) {
   var permalink = '{{ site.url }}' + $btn.attr('data-permalink');
   var picture = $btn.attr('data-picture') || false;
 
-  if (picture) {
-    picture = '{{ site.url }}{{ site.post_pictures }}' + picture;
-  } else {
+  if (!picture) {
     picture = '{{ site.url }}{{ site.export_logo }}';
   }
 
@@ -58,7 +56,7 @@ function share($btn) {
   }
 
   if (options) {
-    //console.log(options.params);
+    console.log(options.params);
     PopupCenter(
       options.host + '?' + $.param(options.params),
       '_blank', options.size.width, options.size.height);

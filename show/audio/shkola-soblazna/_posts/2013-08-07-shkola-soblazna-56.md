@@ -3,7 +3,7 @@ layout: audio
 title: В гостях Александр Белькович
 description: В гостях у «Школы Соблазна» бренд-шеф ресторанов холдинга Ginza Project.
 subtitle: Школа Соблазна, выпуск 56
-picture: shkola-soblazna-56.jpg
+picture: shkola-soblazna/56.jpg
 src: http://shkola-soblazna.podster.fm/56/download/audio.mp3?media=player
 ---
 

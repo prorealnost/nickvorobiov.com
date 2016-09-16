@@ -3,7 +3,7 @@ layout: audio
 title: Обсуждаем тему измен
 description: Дарья и Николай будут разбираться — что считается изменой и можно ли простить ее любимому человеку.  
 subtitle: Школа Соблазна, выпуск 16
-picture: shkola-soblazna-16.jpg
+picture: shkola-soblazna/16.jpg
 src: http://shkola-soblazna.podster.fm/16/download/audio.mp3?media=player
 ---
 

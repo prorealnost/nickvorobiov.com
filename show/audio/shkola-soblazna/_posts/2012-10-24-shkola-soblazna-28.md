@@ -3,7 +3,7 @@ layout: audio
 title: Люблю его друга или нравится ее сестра
 description: Считается ли это изменой, стоит ли с этим бороться, как себя сдерживать и можно ли «разрулить» такую ситуацию?
 subtitle: Школа Соблазна, выпуск 28
-picture: shkola-soblazna-28.jpg
+picture: shkola-soblazna/28.jpg
 src: http://shkola-soblazna.podster.fm/28/download/audio.mp3?media=player
 ---
 

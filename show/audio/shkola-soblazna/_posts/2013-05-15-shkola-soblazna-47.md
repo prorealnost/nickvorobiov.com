@@ -3,7 +3,7 @@ layout: audio
 title: Как девушки используют мужчин
 description: Николай Воробьев и Дарья Герман о девушках и о том, как они используют мужчин.
 subtitle: Школа Соблазна, выпуск 47
-picture: shkola-soblazna-47.jpg
+picture: shkola-soblazna/47.jpg
 src: http://shkola-soblazna.podster.fm/47/download/audio.mp3?media=player
 ---
 

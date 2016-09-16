@@ -3,7 +3,7 @@ layout: audio
 title: Неприступные женщины вызывают у мужчин больший интерес?
 description: Можно ли заинтересовать мужчину своей недоступностью, или это наоборот отпугнет и приведет к тому, что он вовсе может потерять интерес.
 subtitle: Школа Соблазна, выпуск 33
-picture: shkola-soblazna-33.jpg
+picture: shkola-soblazna/33.jpg
 src: http://shkola-soblazna.podster.fm/33/download/audio.mp3?media=player
 ---
 

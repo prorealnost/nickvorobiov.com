@@ -3,7 +3,7 @@ layout: audio
 title: Зачем нужны отношения? Часть вторая.
 description: Продолжение беседы о пользе и вреде отношений.
 subtitle: Школа Соблазна, выпуск 52
-picture: shkola-soblazna-52.jpg
+picture: shkola-soblazna/52.jpg
 src: http://shkola-soblazna.podster.fm/52/download/audio.mp3?media=player
 ---
 

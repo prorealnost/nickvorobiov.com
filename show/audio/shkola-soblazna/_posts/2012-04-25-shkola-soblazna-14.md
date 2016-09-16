@@ -3,7 +3,7 @@ layout: audio
 title: Искусство вести себя в компании
 description: Почему важна эта тема? 
 subtitle: Школа Соблазна, выпуск 14
-picture: shkola-soblazna-14.jpg
+picture: shkola-soblazna/14.jpg
 src: http://shkola-soblazna.podster.fm/14/download/audio.mp3?media=player
 ---
 

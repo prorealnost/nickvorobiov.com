@@ -3,7 +3,7 @@ layout: audio
 title: Манипуляции
 description: Дарья Герман и Николай Воробьёв говорят о том, как партнёры манипулируют друг дургом.
 subtitle: Школа Соблазна, выпуск 49
-picture: shkola-soblazna-49.jpg
+picture: shkola-soblazna/49.jpg
 src: http://shkola-soblazna.podster.fm/49/download/audio.mp3?media=player
 ---
 

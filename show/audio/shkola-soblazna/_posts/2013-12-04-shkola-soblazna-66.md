@@ -2,7 +2,7 @@
 layout: audio
 title: Неограниченные отношения vol.2
 subtitle: Школа Соблазна, выпуск 66
-picture: shkola-soblazna-66.jpg
+picture: shkola-soblazna/66.jpg
 src: http://shkola-soblazna.podster.fm/66/download/audio.mp3?media=player
 ---
 

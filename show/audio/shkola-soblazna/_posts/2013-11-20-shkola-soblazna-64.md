@@ -3,7 +3,7 @@ layout: audio
 title: Легендарный YOAV в гостях у Дарьи и Николая
 description: В гостях у «Школы Соблазна» YOAV, певец и музыкант родом из Израиля
 subtitle: Школа Соблазна, выпуск 64
-picture: shkola-soblazna-64.jpg
+picture: shkola-soblazna/64.jpg
 src: http://shkola-soblazna.podster.fm/64/download/audio.mp3?media=player
 ---
 

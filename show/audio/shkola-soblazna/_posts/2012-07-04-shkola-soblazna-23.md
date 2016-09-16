@@ -3,7 +3,7 @@ layout: audio
 title: Куда пойти на свидание?
 description: Порой обычная прогулка в парке может принести больше удовольствия, чем поход в дорогой ресторан.
 subtitle: Школа Соблазна, выпуск 23
-picture: shkola-soblazna-23.jpg
+picture: shkola-soblazna/23.jpg
 src: http://shkola-soblazna.podster.fm/23/download/audio.mp3?media=player
 ---
 

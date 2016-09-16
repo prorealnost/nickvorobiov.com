@@ -3,7 +3,7 @@ layout: audio
 title: Саша Geo в «Школе Соблазна»
 description: Сегодня вы услышите второй выпуск программы из серии «интервью с самыми завидными женихами России».
 subtitle: Школа Соблазна, выпуск 13
-picture: shkola-soblazna-13.jpg
+picture: shkola-soblazna/13.jpg
 src: http://shkola-soblazna.podster.fm/13/download/audio.mp3?media=player
 ---
 

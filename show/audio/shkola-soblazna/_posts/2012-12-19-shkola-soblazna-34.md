@@ -3,7 +3,7 @@ layout: audio
 title: Как выбрать самого лучшего
 description: Сегодня Дарья и Николай разобирают любовные многоугольники, и как не запутаться в таких отношениях.
 subtitle: Школа Соблазна, выпуск 34
-picture: shkola-soblazna-34.jpg
+picture: shkola-soblazna/34.jpg
 src: http://shkola-soblazna.podster.fm/34/download/audio.mp3?media=player
 ---
 

@@ -3,7 +3,7 @@ layout: audio
 title: Служебные романы
 description: Сегодня Дарья и Николай рассуждают на эту, бесспорно, интересную тему.
 subtitle: Школа Соблазна, выпуск 24
-picture: shkola-soblazna-24.jpg
+picture: shkola-soblazna/24.jpg
 src: http://shkola-soblazna.podster.fm/24/download/audio.mp3?media=player
 ---
 

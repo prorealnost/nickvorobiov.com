@@ -3,7 +3,7 @@ layout: audio
 title: В гостях Александр Цыпкин
 description: Профессиональный коммуникатор и известный PR-специалист Петербурга.
 subtitle: Школа Соблазна, выпуск 21
-picture: shkola-soblazna-21.jpg
+picture: shkola-soblazna/21.jpg
 src: http://shkola-soblazna.podster.fm/21/download/audio.mp3?media=player
 ---
 

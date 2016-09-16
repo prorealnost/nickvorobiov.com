@@ -3,7 +3,7 @@ layout: audio
 title: Личное пространство
 description: Почему на него посягает ваша вторая половина и как его отвоевывать?
 subtitle: Школа Соблазна, выпуск 27
-picture: shkola-soblazna-27.jpg
+picture: shkola-soblazna/27.jpg
 src: http://shkola-soblazna.podster.fm/27/download/audio.mp3?media=player
 ---
 

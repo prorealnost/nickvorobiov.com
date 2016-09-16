@@ -3,7 +3,7 @@ layout: audio
 title: Красивые мужчины — это счастье или диагноз?  
 description: Дарья Герман и Николай Воробьёв о красоте, красивых мужчинах и красивых женщинах.
 subtitle: Школа Соблазна, выпуск 41
-picture: shkola-soblazna-41.jpg
+picture: shkola-soblazna/41.jpg
 src: http://shkola-soblazna.podster.fm/41/download/audio.mp3?media=player
 ---
 

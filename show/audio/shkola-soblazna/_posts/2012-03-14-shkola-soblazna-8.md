@@ -3,7 +3,7 @@ layout: audio
 title: Как правильно прикасаться друг к другу?
 description: Сегодня Даша и Николай обсуждают важную и интимную тему прикосновений друг к другу. 
 subtitle: Школа Соблазна, выпуск 8
-picture: shkola-soblazna-8.jpg
+picture: shkola-soblazna/8.jpg
 src: http://shkola-soblazna.podster.fm/8/download/audio.mp3?media=player
 ---
 

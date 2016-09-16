@@ -3,7 +3,7 @@ layout: audio
 title: Как не оказаться в статусе друга?
 description: ...Дарья и Николай обсуждают это сегодня в «Школе Соблазна».
 subtitle: Школа Соблазна, выпуск 12
-picture: shkola-soblazna-12.jpg
+picture: shkola-soblazna/12.jpg
 src: http://shkola-soblazna.podster.fm/12/download/audio.mp3?media=player
 ---
 

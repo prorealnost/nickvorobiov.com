@@ -3,7 +3,7 @@ layout: audio
 title: Мужская ответственность
 description: Что женщины вкладывают в понияте «мужская ответственность», и что такое ответственность в понимании мужчин.
 subtitle: Школа Соблазна, выпуск 37
-picture: shkola-soblazna-37.jpg
+picture: shkola-soblazna/37.jpg
 src: http://shkola-soblazna.podster.fm/37/download/audio.mp3?media=player
 ---
 

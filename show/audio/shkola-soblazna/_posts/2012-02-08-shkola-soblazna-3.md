@@ -3,7 +3,7 @@ layout: audio
 title: Как взять номер телефона у девушки?
 description: Как правильно это сделать и нужно ли настаивать на своём?
 subtitle: Школа Соблазна, выпуск 3
-picture: shkola-soblazna-3.jpg
+picture: shkola-soblazna/3.jpg
 src: http://shkola-soblazna.podster.fm/3/download/audio.mp3?media=player
 ---
 

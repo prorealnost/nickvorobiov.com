@@ -3,7 +3,7 @@ layout: audio
 title: Что делать, если твой парень восхищается другими девушками?
 description: Даша Герман и Николай Воробьев дают советы на тему, предложенную слушателями.
 subtitle: Школа Соблазна, выпуск 63
-picture: shkola-soblazna-63.jpg
+picture: shkola-soblazna/63.jpg
 src: http://shkola-soblazna.podster.fm/63/download/audio.mp3?media=player
 ---
 

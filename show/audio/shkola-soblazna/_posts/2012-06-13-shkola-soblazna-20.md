@@ -3,7 +3,7 @@ layout: audio
 title: Сегодня в «Школе Соблазна» ответы на вопросы!
 description: Экспертное мнение по вашим вопросам от Дарьи и Николая.
 subtitle: Школа Соблазна, выпуск 20
-picture: shkola-soblazna-20.jpg
+picture: shkola-soblazna/20.jpg
 src: http://shkola-soblazna.podster.fm/20/download/audio.mp3?media=player
 ---
 

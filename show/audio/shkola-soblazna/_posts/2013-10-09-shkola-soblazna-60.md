@@ -3,7 +3,7 @@ layout: audio
 title: Что делать, если  он оказался геем?
 description: Сегодня ведущие рассуждают на тему, предложенную Даше одной из подписчиц. 
 subtitle: Школа Соблазна, выпуск 60
-picture: shkola-soblazna-60.jpg
+picture: shkola-soblazna/60.jpg
 src: http://shkola-soblazna.podster.fm/60/download/audio.mp3?media=player
 ---
 

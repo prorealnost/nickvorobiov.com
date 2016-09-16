@@ -3,7 +3,7 @@ layout: audio
 title: Любовь после расставания
 description: Дарья Герман и Николай Воробьев не просто говорят на тему любви после расставания, а делятся своими ощущениями и переживаниями.
 subtitle: Школа Соблазна, выпуск 43
-picture: shkola-soblazna-43.jpg
+picture: shkola-soblazna/43.jpg
 src: http://shkola-soblazna.podster.fm/43/download/audio.mp3?media=player
 ---
 

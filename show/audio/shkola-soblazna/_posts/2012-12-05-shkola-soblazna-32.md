@@ -3,7 +3,7 @@ layout: audio
 title: В гостях Игорь Гуляев
 description: Яркий, талантливый и харизматичный дизайнер, основатель Модного дома IGOR GULAYAEV.
 subtitle: Школа Соблазна, выпуск 32
-picture: shkola-soblazna-32.jpg
+picture: shkola-soblazna/32.jpg
 src: http://shkola-soblazna.podster.fm/32/download/audio.mp3?media=player
 ---
 

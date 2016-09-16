@@ -3,7 +3,7 @@ layout: audio
 title: Почему люди врут?
 description: Дарья Герман и Николай Воробьев рассуждают о том, зачем близкие люди обманывают друг друга.
 subtitle: Школа Соблазна, выпуск 57
-picture: shkola-soblazna-57.jpg
+picture: shkola-soblazna/57.jpg
 src: http://shkola-soblazna.podster.fm/57/download/audio.mp3?media=player
 ---
 

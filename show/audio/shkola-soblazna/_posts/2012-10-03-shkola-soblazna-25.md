@@ -3,7 +3,7 @@ layout: audio
 title: "Прошлое партнера: куда девать, молчать или говорить"
 description: Дарья и Николай вновь делятся с вами секретами по части отношений и соблазнения.
 subtitle: Школа Соблазна, выпуск 25
-picture: shkola-soblazna-25.jpg
+picture: shkola-soblazna/25.jpg
 src: http://shkola-soblazna.podster.fm/25/download/audio.mp3?media=player
 ---
 

@@ -3,7 +3,7 @@ layout: audio
 title: Как общаться с бывшими?
 description: Сегодня Даша Герман и Николай Воробьев рассуждают на тему, предложенную одной из слушательниц программы.
 subtitle: Школа Соблазна, выпуск 59
-picture: shkola-soblazna-59.jpg
+picture: shkola-soblazna/59.jpg
 src: http://shkola-soblazna.podster.fm/59/download/audio.mp3?media=player
 ---
 

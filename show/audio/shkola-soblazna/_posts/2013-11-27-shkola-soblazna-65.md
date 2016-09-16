@@ -2,7 +2,7 @@
 layout: audio
 title: Неограниченные отношения vol.1
 subtitle: Школа Соблазна, выпуск 65
-picture: shkola-soblazna-65.jpg
+picture: shkola-soblazna/65.jpg
 src: http://shkola-soblazna.podster.fm/65/download/audio.mp3?media=player
 ---
 

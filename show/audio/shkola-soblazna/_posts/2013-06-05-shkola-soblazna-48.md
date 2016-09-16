@@ -3,7 +3,7 @@ layout: audio
 title: Если мужчина встречается с двумя женщинами сразу
 description: Дарья Герман и Николай Воробьев высказывают женское и мужское мнение о ситуации, спорят и стирают привычные рамки.
 subtitle: Школа Соблазна, выпуск 48
-picture: shkola-soblazna-48.jpg
+picture: shkola-soblazna/48.jpg
 src: http://shkola-soblazna.podster.fm/48/download/audio.mp3?media=player
 ---
 

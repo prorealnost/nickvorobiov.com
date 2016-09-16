@@ -3,7 +3,7 @@ layout: audio
 title: Сценарий идеального свидания
 description: Как устроить отличное незабываемое свидание, о котором девушка и парень не забудут никогда.
 subtitle: Школа Соблазна, выпуск 9
-picture: shkola-soblazna-9.jpg
+picture: shkola-soblazna/9.jpg
 src: http://shkola-soblazna.podster.fm/9/download/audio.mp3?media=player
 ---
 

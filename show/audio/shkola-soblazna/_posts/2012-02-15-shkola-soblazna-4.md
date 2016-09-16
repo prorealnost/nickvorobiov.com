@@ -3,7 +3,7 @@ layout: audio
 title: Почему девушка не берет трубку?
 description: Сегодня Даша и Николай обсуждают вопрос, который мучает всех парней...
 subtitle: Школа Соблазна, выпуск 4
-picture: shkola-soblazna-4.jpg
+picture: shkola-soblazna/4.jpg
 src: http://shkola-soblazna.podster.fm/4/download/audio.mp3?media=player
 ---
 

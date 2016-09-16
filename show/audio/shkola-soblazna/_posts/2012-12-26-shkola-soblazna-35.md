@@ -3,7 +3,7 @@ layout: audio
 title: Лучший друг моей девушки
 description: Как реагировать на присутствие друзей противоположного пола в жизни твоей половинки. Можно ли доверять?
 subtitle: Школа Соблазна, выпуск 35
-picture: shkola-soblazna-35.jpg
+picture: shkola-soblazna/35.jpg
 src: http://shkola-soblazna.podster.fm/35/download/audio.mp3?media=player
 ---
 

@@ -3,7 +3,7 @@ layout: audio
 title: Как остановиться
 description: Как понять, что наконец-то встретил ту самую или того самого?
 subtitle: Школа Соблазна, выпуск 30
-picture: shkola-soblazna-30.jpg
+picture: shkola-soblazna/30.jpg
 src: http://shkola-soblazna.podster.fm/30/download/audio.mp3?media=player
 ---
 

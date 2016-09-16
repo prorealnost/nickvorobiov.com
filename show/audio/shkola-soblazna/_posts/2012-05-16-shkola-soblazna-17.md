@@ -3,7 +3,7 @@ layout: audio
 title: Говорим о легких отношениях
 description: Дарья и Николай разбираются в тонкостях этой темы.
 subtitle: Школа Соблазна, выпуск 17
-picture: shkola-soblazna-17.jpg
+picture: shkola-soblazna/17.jpg
 src: http://shkola-soblazna.podster.fm/17/download/audio.mp3?media=player
 ---
 
