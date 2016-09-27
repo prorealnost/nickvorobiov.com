@@ -1,0 +1,586 @@
+<!-- BEGIN: Signup Form Popup Code from Benchmark Email Ver 3.1 -->
+<style type="text/css">
+#signupFormOverlay,
+#signupFormVeil {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 0;
+  left: 0;
+  border: none;
+}
+
+#signupFormOverlay {
+  z-index: 777777;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+#signupFormContent > div.formbox-editor {
+  position: absolute;
+}
+
+#signupFormVeil {
+  opacity: 0;
+}
+
+#signupFormContent.position-centered {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+#signupFormContent.position-centered > div.formbox-editor {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+#signupFormContainer,
+#signupFormContent {
+  z-index: 888888;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  border: none;
+  top: 0;
+  left: 0;
+  -webkit-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  overflow: auto;
+}
+
+#signupFormContainer {
+  overflow: hidden;
+}
+
+#close-btn svg {
+  display: block;
+}
+
+#close-btn path {
+  fill: #000000;
+}
+
+#signupFormContainer > #close-btn {
+  right: 20px!important;
+  top: 20px!important;
+}
+
+#close-btn {
+  position: absolute;
+  cursor: pointer;
+  z-index: 999999;
+  font-size: 20px;
+  display: block;
+  top: 10px;
+  right: 10px;
+  color: #000000;
+  background-color: ;
+  border-radius: 0px;
+}
+
+.animation-fadeIn {
+  animation-name: animation-fadeIn;
+  -webkit-animation-name: animation-fadeIn;
+  animation-duration: 0.6s;
+  -webkit-animation-duration: 0.6s;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-timing-function: ease-in-out;
+  visibility: visible !important;
+}
+
+@keyframes animation-fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes animation-fadeIn {
+  0% {
+    opacity: 0.0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.formbox-editor fieldset {
+  border: none;
+  margin: 0;
+  padding: 0 40px;
+  position: relative;
+}
+
+.formbox-editor fieldset > input,
+.formbox-editor fieldset > textarea,
+.formbox-editable-field {
+  margin: 10px 0;
+  outline: none;
+}
+
+.spacer-block {
+  min-height: 20px;
+  padding: 10px 0;
+  position: relative;
+}
+
+.spacer-block-line {
+  position: absolute;
+  top: 50%;
+  left: 40px;
+  right: 40px;
+  display: none;
+  border-top-style: solid;
+}
+
+.formbox-editor {
+  margin: 0 auto;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+#formbox_screen_subscribe,
+#formbox_screen_success {
+  padding: 30px 0;
+}
+
+.formbox-title,
+.formbox-text-field {
+  margin-bottom: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #000000;
+  font-size: 14px;
+}
+
+.formbox-title a,
+.formbox-text-field a {
+  text-decoration: none;
+}
+
+.formbox-title p,
+.formbox-text-field p {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  word-break: break-word;
+}
+
+label.formbox-field-label {
+  font-family: Helvetica, Arial, sans-serif;
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 14px;
+  text-align: left;
+  line-height: 100%;
+  color: #000000;
+}
+
+label.formbox-label-wrap {
+  font-family: Helvetica, Arial, sans-serif;
+  display: block;
+  margin: 10px 0 0;
+  padding: 0;
+  font-size: 14px;
+  line-height: 100%;
+  padding-left: 15px;
+  text-indent: -15px;
+  font-style: italic;
+  color: #000000;
+}
+
+label.formbox-label-wrap:last-of-type {
+  margin-bottom: 10px;
+}
+
+label.formbox-label-wrap input[type=checkbox],
+label.formbox-label-wrap input[type=radio] {
+  width: 13px;
+  height: 13px;
+  padding: 0;
+  margin: 0;
+  margin-right: 5px;
+  vertical-align: bottom;
+  position: relative;
+  top: -1px;
+}
+
+select.formbox-field {
+  background-color: #000000;
+  border: 2px solid #F1F2F2;
+  border-radius: 0px;
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  width: 100%;
+  margin: 10px 0;
+  height: auto;
+  padding: 2px 0px;
+}
+
+input.formbox-field {
+  color: #000000;
+  background-color: #FFFFFF;
+  border: 2px solid #F1F2F2;
+  border-radius: 0px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+  padding: 15px;
+  width: 100%;
+}
+
+input.formbox-field.text-placeholder {
+  color: #C4C4C4;
+  font-weight: normal;
+  font-style: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+}
+
+.formbox-field::-webkit-input-placeholder {
+  color: #C4C4C4;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 1;
+}
+
+.formbox-field::-moz-placeholder {
+  color: #C4C4C4;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 1;
+}
+
+.formbox-field:-ms-input-placeholder {
+  color: #C4C4C4;
+  font-weight: normal;
+  font-style: normal;
+  opacity: 1;
+}
+
+.formbox-button {
+  line-height: 100%;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+.formbox-button:hover {
+  background-color: #353d41 !important;
+}
+
+.formbox-button:active {
+  background-color: #0d1519 !important;
+}
+
+#popupFormLoader {
+  display: none;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 20px;
+  height: 20px;
+  background-image: url(https://benchmarkemail.com/images/popup-builder/loadingicon.svg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0.3);
+  border-radius: 100%;
+  -webkit-animation-name: spin;
+  -webkit-animation-duration: 800ms;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  -moz-animation-name: spin;
+  -moz-animation-duration: 800ms;
+  -moz-animation-iteration-count: infinite;
+  -moz-animation-timing-function: linear;
+  -ms-animation-name: spin;
+  -ms-animation-duration: 800ms;
+  -ms-animation-iteration-count: infinite;
+  -ms-animation-timing-function: linear;
+  animation-name: spin;
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@-moz-keyframes spin {
+  from {
+    -moz-transform: rotate(0deg);
+  }
+  to {
+    -moz-transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+</style>
+<div id="signupFormContainer" style="display: none;">
+  <div id="signupFormOverlay"></div>
+  <div id="signupFormContent" class="animation-fadeIn position-centered">
+    <div id="signupFormVeil"></div>
+    <div class="formbox-editor" style="background: #ffffff; width: 400px;border-radius:0px; box-sizing: border-box;">
+      <div id="close-btn" style="padding: 10px;">
+        <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="10px" height="10px" viewBox="0 0 10 10" enable-background="new 0 0 10 10" xml:space="preserve">
+          <polygon points="10,1.3 8.7,0 5,3.7 1.3,0 0,1.3 3.7,5 0,8.7 1.3,10 5,6.3 8.7,10 10,8.7 6.3,5 " data-size="s-close-medium" data-selected="close-medium"></polygon>
+        </svg>
+      </div>
+      <form id="formbox_screen_subscribe" style="display:block;" action="" method=post name="frmLB" accept-charset="UTF-8" onsubmit="return _checkSubmitSF(this);">
+        <input type=hidden name=token id=token value="mFcQnoBFKMQUZMjEijfcS+ZXUawFafLCUSoBRFuXIbiXTESBLBYPhQ==" />
+        <fieldset>
+          <div class="formbox-title">
+            <p style="line-height: 1; text-align: left;" data-mce-style="line-height: 1; text-align: left;"><span style="font-family: Helvetica,Arial,sans-serif; font-size: 20px;" data-mce-style="font-family: Helvetica,Arial,sans-serif; font-size: 20px;"><strong><span style="color: #000000;" data-mce-style="color: #000000;">Чек-лист выбора ниши</span></strong>
+              </span>
+            </p>
+          </div>
+        </fieldset>
+        <fieldset class="formbox-field" style="text-align: center; padding: 0px 40px;"><img src="https://images.benchmarkemail.com/client675152/image3607602.jpg" style="max-width:320px;"></fieldset>
+        <fieldset class="formbox-field">
+          <input type=text placeholder="Имя" class="formbox-field text-placeholder" onfocus="javascript:focusPlaceHolder(this);" onblur="javascript:blurPlaceHolder(this);" id="fldfirstname" name="fldfirstname" maxlength=100 />
+        </fieldset>
+        <fieldset class="formbox-field">
+          <input type=text placeholder="Емейл *" class="formbox-field text-placeholder" onfocus="javascript:focusPlaceHolder(this);" onblur="javascript:blurPlaceHolder(this);" id="fldemail" name="fldemail" maxlength=100 />
+        </fieldset>
+        <fieldset style="text-align:left;">
+          <div id="btnSubmit" onClick="javascript:return submitClick();" style="word-break: break-all; box-sizing: border-box; text-align:center; display: inline-block;padding-left: 15px; padding-right: 15px;padding-top: 15px; padding-bottom: 15px;background-color:rgb(33, 41, 45); border: rgba(0, 0, 0, 0) solid 0px; border-radius: 2px;font-family :Helvetica, Arial, sans-serif; font-size: 14px;color: rgb(255, 255, 255); line-height: 1; letter-spacing:1px;" class="formbox-button">Получить чек-лист</div>
+        </fieldset>
+        <div id="popupFormLoader" style="display: none;"></div>
+      </form>
+      <div id="formbox_screen_success" style="display: none;">
+        <fieldset class="formbox-field">
+          <div class="formbox-editable-field formbox-text-field">
+            <p style="color: #000; font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 1;" data-mce-style="color: #000; font-family: Helvetica, Arial, sans-serif; font-size: 20px; line-height: 1;">Спасибо за подписку!</p>
+          </div>
+        </fieldset>
+        <fieldset class="formbox-field">
+          <div class="formbox-editable-field formbox-text-field">
+            <p style="color: #000; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5;" data-mce-style="color: #000; font-family: Helvetica, Arial, sans-serif; font-size: 14px; line-height: 1.5;">Почти готово. Проверь почту и кликни по ссылке подтверждения подписки..</p>
+          </div>
+        </fieldset>
+      </div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript">
+function CheckField(fldName, frm) {
+  if (frm[fldName].length) {
+    if (frm[fldName].tagName.toLowerCase() == "select") {
+      frm[fldName].focus();
+      return (frm[fldName].value.length > 0);
+    }
+    return false;
+  } else if (frm[fldName].type == "checkbox") {
+    return (frm[fldName].checked);
+  } else if (frm[fldName].type == "radio") {
+    return (frm[fldName].checked);
+  } else if (frm[fldName].type == "hidden") {
+    if (frm[fldName].attributes["data-type"].value == "date") {
+      var id = frm[fldName].id;
+      return isValidDate(frm[id + "yyyy"].value, frm[id + "mm"].options.selectedIndex, frm[id + "dd"].value);
+    }
+  } else {
+    frm[fldName].focus();
+    return (frm[fldName].value.length > 0);
+  }
+}
+
+function rmspaces(x) {
+  var leftx = 0;
+  var rightx = x.length - 1;
+  while (x.charAt(leftx) == ' ') {
+    leftx++;
+  }
+  while (x.charAt(rightx) == ' ') {
+    --rightx;
+  }
+  var q = x.substr(leftx, rightx - leftx + 1);
+  if ((leftx == x.length) && (rightx == -1)) {
+    q = '';
+  }
+  return (q);
+}
+
+function checkfield(data) {
+  if (rmspaces(data) == "") {
+    return false;
+  } else {
+    return true;
+  }
+}
+
+function isemail(data) {
+  var flag = false;
+  if (data.indexOf("@", 0) == -1 || data.indexOf("\\\\", 0) != -1 || data.indexOf("/", 0) != -1 || !checkfield(data) || data.indexOf(".", 0) == -1 || data.indexOf("@") == 0 || data.lastIndexOf(".") < data.lastIndexOf("@") || data.lastIndexOf(".") == (data.length - 1) || data.lastIndexOf("@") != data.indexOf("@") || data.indexOf(",", 0) != -1 || data.indexOf(":", 0) != -1 || data.indexOf(";", 0) != -1) {
+    return flag;
+  } else {
+    var temp = rmspaces(data);
+    if (temp.indexOf(' ', 0) != -1) {
+      flag = true;
+    }
+    var d3 = temp.lastIndexOf('.') + 4;
+    var d4 = temp.substring(0, d3);
+    var e2 = temp.length - temp.lastIndexOf('.') - 1;
+    var i1 = temp.indexOf('@');
+    if ((temp.charAt(i1 + 1) == '.') || (e2 < 1)) {
+      flag = true;
+    }
+    return !flag;
+  }
+}
+
+function focusPlaceHolder(obj) {
+  obj.className = "formbox-field";
+}
+
+function blurPlaceHolder(obj) {
+  if (obj.value == '') {
+    obj.className = "formbox-field text-placeholder";
+  }
+}
+
+function isValidDate(year, month, day) {
+  if (year.toString() == '' || month.toString() == '' || day.toString() == '') {
+    return false;
+  }
+  try {
+    year = parseInt(year);
+    month = parseInt(month);
+    day = parseInt(day);
+  } catch (e) {
+    return false;
+  }
+  var d = new Date(year, month - 1, day, 0, 0, 0, 0);
+  return (!isNaN(d) && (d.getDate() == day && d.getMonth() + 1 == month && d.getFullYear() == year));
+}
+var submitButton = document.getElementById("btnSubmit");
+var subscribeScreen = document.getElementById("formbox_screen_subscribe");
+var successScreen = document.getElementById("formbox_screen_success");
+var signupFormContainer = document.getElementById("signupFormContainer");
+var signupFormVeil = document.getElementById("signupFormVeil");
+var signupFormCloseButton = document.getElementById("close-btn");
+var signupFormLoader = document.getElementById("popupFormLoader");
+
+function submitClick() {
+  var retVal = true;
+  var contentdata = "";
+  var frm = document.getElementById("formbox_screen_subscribe");
+  if (!isemail(frm["fldemail"].value)) {
+    alert("Пожалуйста, укажи емейл");
+    document.getElementById("fldemail").focus();
+    retVal = false;
+  }
+  if (retVal == true) {
+    var data = "token=" + encodeURIComponent(document.getElementById("token").value);
+    data = data + "&" + "fldfirstname=" + encodeURIComponent(document.getElementById("fldfirstname").value);
+    data = data + "&" + "fldemail=" + encodeURIComponent(document.getElementById("fldemail").value);
+    submitFormData(data);
+  }
+  return retVal;
+}
+var loaded = false;
+var popupFormSubmitting = false;
+
+function submitFormData(data) {
+  if (loaded == false && popupFormSubmitting == false) {
+    popupFormSubmitting = true;
+    checkLoading();
+    var oldObj = document.getElementById('img');
+    try {
+      if (oldObj != null) {
+        document.getElementById('formbox_screen_subscribe').removeChild(oldObj);
+      }
+    } catch (e) {}
+    var rand = Math.random();
+    var objImg = document.createElement('img');
+    objImg.id = "img";
+    objImg.onload = function() {
+      popupFormSubmitting = false;
+      loaded = true;
+      checkLoading();
+    };
+    objImg.onerror = function(e) {
+      popupFormSubmitting = false;
+      loaded = false;
+      checkLoading();
+      errorLoading(e);
+    };
+    objImg.src = "http://lb.benchmarkemail.com//code/lbform/api?" + data + "&inst=" + rand;
+    objImg.style.display = "none";
+    checkLoaded();
+    document.getElementById('formbox_screen_subscribe').appendChild(objImg);
+  } else if (popupFormSubmitting == true) {
+    alert("Saving, please wait...");
+  }
+}
+
+function checkLoading(e) {
+  if (popupFormSubmitting == true) {
+    signupFormLoader.style.display = 'block';
+  } else {
+    signupFormLoader.style.display = 'none';
+  }
+}
+
+function errorLoading(e) {
+  alert("Непонятная ошибка. Попробуй позже");
+  loaded = false;
+}
+
+function checkLoaded() {
+  if (loaded == false) {
+    setTimeout(checkLoaded, 100);
+  } else {
+    var wd = document.getElementById('img').width;
+    if (wd == 1) {
+      document.getElementById('formbox_screen_subscribe').style.display = 'none';
+      document.getElementById('formbox_screen_success').style.display = 'block';
+    } else {
+      loaded = false;
+      if (wd == 2) {
+        alert("Этот емейл уже подписан");
+        document.getElementById('fldemail').focus();
+      } else if (wd == 3 || wd == 4) {
+        alert("Некорректный емейл");
+        document.getElementById('fldemail').focus();
+      } else {
+        alert("Непонятная ошибка. Попробуй позже");
+        document.getElementById('fldemail').focus();
+      }
+    }
+  }
+}
+signupFormCloseButton.addEventListener("click", function() {
+  signupFormContainer.style.display = 'none';
+});
+/*
+setTimeout(function() {
+  signupFormContainer.style.display = 'block';
+}, 3 * 1000);
+*/
+</script>
+<!-- END: Signup Form Popup Code from Benchmark Email Ver 3.1 -->
