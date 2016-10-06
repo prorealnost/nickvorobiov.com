@@ -4,19 +4,19 @@ layout: default
 
 <div class="post--picture" style="{% if page.picture %}background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url({{ site.post_pictures }}{{ page.picture }}){% endif %}">
   <div class="container">
-    {% include header.html title=page.title subtitle='Вебинар Николая Воробьёва' %}
+    {% include header.html title=page.title subtitle=page.subtitle %}
   </div>
 </div>
 
 <div class="container club">
   <div class="row">
     <div class="col-md-8 main">
-      <h1>О чём вебинар</h1>
+      <h1>Запись вебинара Николая Воробьёва</h1>
       <p class="lead">{{ page.description }}</p>
       <div class="row">
         {% if page.gains %}
           <div class="col-sm-6">
-            <h3>Что даёт</h3>
+            <h3>Что ты получишь</h3>
             {% for gain in page.gains %}
               {{ gain }}<br/>
             {% endfor %}
@@ -35,7 +35,7 @@ layout: default
 
       <p>Выбери способ оплаты и нажми на кнопку «Купить»</p>
       {% capture redirect %}http://club.nickvorobiov.com/enjoy/{{ page.slug }}/{{ page.event }}/{% endcapture %}
-      <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ page.title | url_encode }}&targets-hint=&default-sum=390&button-text=02&fio=on&mail=on&phone=on&successURL={{ redirect | url_encode }}" width="450" height="213"></iframe>
+      <iframe frameborder="0" allowtransparency="true" scrolling="no" src="https://money.yandex.ru/quickpay/shop-widget?account=41001469914505&quickpay=shop&payment-type-choice=on&mobile-payment-type-choice=on&writer=seller&targets={{ page.title | url_encode }}&targets-hint=&default-sum=990&button-text=02&fio=on&mail=on&phone=on&successURL={{ redirect | url_encode }}" width="450" height="213"></iframe>
     </div>
     <div class="col-md-3 col-md-offset-1 sidebar">
       {% include sidebar.html %}
